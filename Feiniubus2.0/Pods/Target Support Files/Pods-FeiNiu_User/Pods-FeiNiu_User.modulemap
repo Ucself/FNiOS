@@ -1,0 +1,6 @@
+framework module Pods_FeiNiu_User {
+  umbrella header "Pods-FeiNiu_User-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="KcP-Az-sKG" userLabel="waitSendCar" customClass="CallCarTopPlaceView">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jma-qd-1Qh">
+                    <rect key="frame" x="10" y="45" width="350" height="1"/>
+                    <color key="backgroundColor" red="0.81568627449999997" green="0.81568627449999997" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="HCa-hb-68F"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成都国际机场成都国际机场成都国际机场" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxk-Au-mW9">
+                    <rect key="frame" x="15" y="15" width="143" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fdsfsf积分卡萨积分卡拉斯放假放假放假" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8M-J8-n5A">
+                    <rect key="frame" x="212" y="15" width="143" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pointTo" translatesAutoresizingMaskIntoConstraints="NO" id="AN1-iq-h23">
+                    <rect key="frame" x="166" y="17" width="38" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="38" id="YRM-z1-kfH"/>
+                        <constraint firstAttribute="height" constant="14" id="dpG-7h-1Sk"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="约15分钟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3c-Qe-vY3">
+                    <rect key="frame" x="15" y="61" width="57" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="约5公里" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ON3-yy-Bdg">
+                    <rect key="frame" x="304" y="61" width="51" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dxn-0i-Yif">
+                    <rect key="frame" x="171" y="61" width="29" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="q8M-J8-n5A" firstAttribute="centerY" secondItem="Rxk-Au-mW9" secondAttribute="centerY" id="2C4-t5-ZFx"/>
+                <constraint firstItem="e3c-Qe-vY3" firstAttribute="leading" secondItem="KcP-Az-sKG" secondAttribute="leading" constant="15" id="4xy-zV-lyX"/>
+                <constraint firstItem="e3c-Qe-vY3" firstAttribute="top" secondItem="jma-qd-1Qh" secondAttribute="bottom" constant="15" id="8Em-bc-9b2"/>
+                <constraint firstItem="Rxk-Au-mW9" firstAttribute="leading" secondItem="KcP-Az-sKG" secondAttribute="leading" constant="15" id="9ow-9o-2DO"/>
+                <constraint firstItem="Dxn-0i-Yif" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="e3c-Qe-vY3" secondAttribute="trailing" constant="8" id="Eq3-80-9Md"/>
+                <constraint firstItem="AN1-iq-h23" firstAttribute="leading" secondItem="Rxk-Au-mW9" secondAttribute="trailing" constant="8" id="H6Z-xs-igD"/>
+                <constraint firstItem="ON3-yy-Bdg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Dxn-0i-Yif" secondAttribute="trailing" constant="8" id="JqV-kP-FfS"/>
+                <constraint firstAttribute="trailing" secondItem="jma-qd-1Qh" secondAttribute="trailing" constant="10" id="Kgq-6u-39c"/>
+                <constraint firstItem="jma-qd-1Qh" firstAttribute="centerY" secondItem="KcP-Az-sKG" secondAttribute="centerY" id="MhM-Bn-TYL"/>
+                <constraint firstItem="Rxk-Au-mW9" firstAttribute="top" secondItem="KcP-Az-sKG" secondAttribute="top" constant="15" id="OmJ-n7-dYn"/>
+                <constraint firstAttribute="trailing" secondItem="ON3-yy-Bdg" secondAttribute="trailing" constant="15" id="Td3-n0-MeQ"/>
+                <constraint firstItem="AN1-iq-h23" firstAttribute="centerY" secondItem="Rxk-Au-mW9" secondAttribute="centerY" id="URf-OY-cRp"/>
+                <constraint firstItem="AN1-iq-h23" firstAttribute="centerX" secondItem="KcP-Az-sKG" secondAttribute="centerX" id="aEA-5e-Wxn"/>
+                <constraint firstAttribute="trailing" secondItem="q8M-J8-n5A" secondAttribute="trailing" constant="15" id="exm-p6-50H"/>
+                <constraint firstItem="ON3-yy-Bdg" firstAttribute="centerY" secondItem="e3c-Qe-vY3" secondAttribute="centerY" id="h5v-PG-5Vv"/>
+                <constraint firstItem="Dxn-0i-Yif" firstAttribute="centerY" secondItem="e3c-Qe-vY3" secondAttribute="centerY" id="sCs-XY-5mp"/>
+                <constraint firstItem="q8M-J8-n5A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="AN1-iq-h23" secondAttribute="trailing" constant="8" id="ub5-kR-WLV"/>
+                <constraint firstItem="jma-qd-1Qh" firstAttribute="leading" secondItem="KcP-Az-sKG" secondAttribute="leading" constant="10" id="uvR-Zq-w9u"/>
+                <constraint firstItem="Dxn-0i-Yif" firstAttribute="centerX" secondItem="KcP-Az-sKG" secondAttribute="centerX" id="yOp-Ve-OL5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="endAddressLab" destination="q8M-J8-n5A" id="OJB-M7-IZg"/>
+                <outlet property="mileageLab" destination="ON3-yy-Bdg" id="gdG-cV-qsc"/>
+                <outlet property="startAddressLab" destination="Rxk-Au-mW9" id="7pb-Wm-5IV"/>
+                <outlet property="timeLab" destination="e3c-Qe-vY3" id="wOh-pW-IA2"/>
+            </connections>
+            <point key="canvasLocation" x="266" y="221"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pointTo" width="39" height="14"/>
+    </resources>
+</document>

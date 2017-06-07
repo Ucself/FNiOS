@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B9B84CA2-1251-45FD-AB75-147AADCD04F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FeiNiuBus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>b54f1a63-60f6-44db-b482-c361a1793dd4++5411</key>
+		<string>http://172.16.1.102/pandora/ios/feiniubus</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FeiNiuBus.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>b54f1a63-60f6-44db-b482-c361a1793dd4++5411</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>b54f1a63-60f6-44db-b482-c361a1793dd4++5411</key>
+		<string>http://172.16.1.102/pandora/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://172.16.1.102/pandora/ios/feiniubus/FeiNiuBus.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>b54f1a63-60f6-44db-b482-c361a1793dd4++5411</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>b54f1a63-60f6-44db-b482-c361a1793dd4++5411</string>
+			<key>IDESourceControlWCCName</key>
+			<string>feiniubus</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="D6C-Kv-aLT" userLabel="waitOnTheCar" customClass="CallCarTopDriverInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BfC-Nl-051">
+                    <rect key="frame" x="20" y="20" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="79M-IK-vF3"/>
+                        <constraint firstAttribute="width" constant="50" id="huP-xi-lmL"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7py-EU-2JL">
+                    <rect key="frame" x="85" y="21" width="36" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uso-nY-Bgt" customClass="RatingBar">
+                    <rect key="frame" x="85" y="53" width="80" height="20"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="caK-lc-Oja"/>
+                        <constraint firstAttribute="width" constant="80" id="teT-QT-eaA"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.8分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuF-Db-3fH">
+                    <rect key="frame" x="173" y="51" width="26" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.50980392156862742" green="0.50980392156862742" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8i-Kt-b8n">
+                    <rect key="frame" x="306" y="23" width="44" height="44"/>
+                    <state key="normal" image="red_phone"/>
+                    <connections>
+                        <action selector="clickCallPhoneAction:" destination="D6C-Kv-aLT" eventType="touchUpInside" id="bDa-KB-tIt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7py-EU-2JL" firstAttribute="leading" secondItem="BfC-Nl-051" secondAttribute="trailing" constant="15" id="0SC-oQ-eLl"/>
+                <constraint firstItem="RuF-Db-3fH" firstAttribute="centerY" secondItem="Uso-nY-Bgt" secondAttribute="centerY" constant="-6" id="3dV-Jc-mo9"/>
+                <constraint firstItem="BfC-Nl-051" firstAttribute="centerY" secondItem="D6C-Kv-aLT" secondAttribute="centerY" id="6Kd-GW-r5u"/>
+                <constraint firstItem="Uso-nY-Bgt" firstAttribute="top" secondItem="7py-EU-2JL" secondAttribute="bottom" constant="15" id="Id4-eg-2O4"/>
+                <constraint firstItem="Uso-nY-Bgt" firstAttribute="leading" secondItem="7py-EU-2JL" secondAttribute="leading" id="IoK-rf-k5C"/>
+                <constraint firstItem="H8i-Kt-b8n" firstAttribute="centerY" secondItem="BfC-Nl-051" secondAttribute="centerY" id="bJa-Dy-zsH"/>
+                <constraint firstAttribute="trailing" secondItem="H8i-Kt-b8n" secondAttribute="trailing" constant="20" id="dQx-Bl-HJr"/>
+                <constraint firstItem="BfC-Nl-051" firstAttribute="leading" secondItem="D6C-Kv-aLT" secondAttribute="leading" constant="20" id="mNP-PV-MZh"/>
+                <constraint firstItem="7py-EU-2JL" firstAttribute="top" secondItem="D6C-Kv-aLT" secondAttribute="top" constant="21" id="rSd-u0-H3U"/>
+                <constraint firstItem="RuF-Db-3fH" firstAttribute="leading" secondItem="Uso-nY-Bgt" secondAttribute="trailing" constant="8" id="wuI-nJ-XSO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="avatarImage" destination="BfC-Nl-051" id="2n0-sv-Rzw"/>
+                <outlet property="driverInfoLab" destination="7py-EU-2JL" id="dLf-DC-aNR"/>
+                <outlet property="gradeView" destination="Uso-nY-Bgt" id="0Kz-h6-Krw"/>
+                <outlet property="scoreLab" destination="RuF-Db-3fH" id="eGq-m9-bcN"/>
+            </connections>
+            <point key="canvasLocation" x="411" y="426"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="red_phone" width="44" height="44"/>
+    </resources>
+</document>

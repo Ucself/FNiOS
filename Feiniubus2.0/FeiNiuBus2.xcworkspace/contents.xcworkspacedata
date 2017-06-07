@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:FNPayment/FNPayment.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FNCommon/FNCommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FNDBManager/FNDBManager.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FNNetInterface/FNNetInterface.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FNSwiftNetInterface/FNSwiftNetInterface.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FNDataModule/FNDataModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FNUIView/FNUIView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FeiNiu_User/FeiNiu_User.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FeiNiu_Merchant/FeiNiu_Merchant.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

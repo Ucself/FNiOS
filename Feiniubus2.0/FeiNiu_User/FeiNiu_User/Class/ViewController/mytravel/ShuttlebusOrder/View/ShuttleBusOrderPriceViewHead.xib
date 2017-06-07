@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShuttleBusOrderPriceViewHead" customModule="FeiNiu_User" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="84"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RlC-U2-Nei" userLabel="lineView">
+                    <rect key="frame" x="55" y="31.5" width="260" height="1"/>
+                    <color key="backgroundColor" red="0.73333333333333328" green="0.73333333333333328" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="bg5-KA-9Hq" customClass="IBDesignableOnePixelConstant">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="onePixelConstant">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="费用详情" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlc-JA-2hd">
+                    <rect key="frame" x="145" y="23" width="80" height="18"/>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="jyE-CN-J69"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥405" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mlq-kT-6aD">
+                    <rect key="frame" x="164" y="56.5" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.99607843137254903" green="0.43137254901960786" blue="0.20784313725490194" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RlC-U2-Nei" secondAttribute="trailing" constant="55" id="9hM-g9-iPA"/>
+                <constraint firstItem="Hlc-JA-2hd" firstAttribute="centerY" secondItem="RlC-U2-Nei" secondAttribute="centerY" id="Ln7-ue-dDB"/>
+                <constraint firstItem="Mlq-kT-6aD" firstAttribute="centerX" secondItem="RlC-U2-Nei" secondAttribute="centerX" id="Xsg-en-iBq"/>
+                <constraint firstAttribute="bottom" secondItem="Mlq-kT-6aD" secondAttribute="bottom" constant="7" id="dui-Cc-M0J"/>
+                <constraint firstItem="RlC-U2-Nei" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-10" id="lCG-c8-YEH"/>
+                <constraint firstItem="RlC-U2-Nei" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="s3L-si-Vdw"/>
+                <constraint firstItem="Hlc-JA-2hd" firstAttribute="centerX" secondItem="RlC-U2-Nei" secondAttribute="centerX" id="zlo-MT-hIC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="payPrice" destination="Mlq-kT-6aD" id="bgs-5C-lCP"/>
+                <outlet property="titleLabel" destination="Hlc-JA-2hd" id="elv-x9-F2t"/>
+            </connections>
+            <point key="canvasLocation" x="-94" y="-6"/>
+        </view>
+    </objects>
+</document>

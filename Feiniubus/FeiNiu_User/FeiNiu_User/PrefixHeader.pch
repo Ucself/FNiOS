@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  FeiNiu_User
+//
+//  Created by 易达飞牛 on 15/7/28.
+//  Copyright (c) 2015年 feiniubus. All rights reserved.
+//
+
+#ifndef FeiNiu_User_Header_h
+#define FeiNiu_User_Header_h
+
+
+#import <FNCommon/Common.h>
+#import <FNCommon/Constants.h>
+#import "UserPreferences.h"
+#import <FNCommon/FNCommon.h>
+
+#define UMengAppKey @"561da554e0f55af087003534"
+//QQ
+#define UMengQQAppId @"1104917072"
+#define UMengQQAppKey @"GrsUcEK3FxqkHqk3"
+//#define UMengQQAppId @"1104832401"
+//#define UMengQQAppKey @"D2MBfe8RKLrEBfMR"
+//Weixin
+#define UMnegWeiXinAppId @"wx2bfb4aaf55cad1d9"
+#define UmengWeiXinAppSecret @"b41023e654e3ef45c3bf3002cf8119e6"
+//Url
+#define UMengUniformUrl @"http://www.umeng.com/social"
+
+
+#define ScreenW         [[UIScreen mainScreen] bounds].size.width
+#define ScreenH         [[UIScreen mainScreen] bounds].size.height
+#define Font(size)          [UIFont systemFontOfSize:size]
+
+
+#endif

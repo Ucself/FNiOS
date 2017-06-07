@@ -1,0 +1,15 @@
+//
+//  DataHeader.pch
+//  FNDataModule
+//
+//  Created by 易达飞牛 on 15/7/30.
+//  Copyright (c) 2015年 feiniubus. All rights reserved.
+//
+
+#ifndef FNDataModule_DataHeader_pch
+#define FNDataModule_DataHeader_pch
+
+
+#import <FNCommon/Common.h>
+
+#endif

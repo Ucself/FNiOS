@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b54f1a63-60f6-44db-b482-c361a1793dd4++5411",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b54f1a63-60f6-44db-b482-c361a1793dd4++5411" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b54f1a63-60f6-44db-b482-c361a1793dd4++5411" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9B84CA2-1251-45FD-AB75-147AADCD04F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b54f1a63-60f6-44db-b482-c361a1793dd4++5411" : "feiniubus\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FeiNiuBus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FeiNiuBus.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/office.feiniubus.com:10240\/pandora\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b54f1a63-60f6-44db-b482-c361a1793dd4++5411"
+    }
+  ]
+}

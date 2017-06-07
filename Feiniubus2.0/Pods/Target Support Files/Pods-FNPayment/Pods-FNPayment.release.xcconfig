@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AliPay"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "$(PODS_ROOT)/libWeChatSDK" $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AMap3DMap-NO-IDFA" "${PODS_ROOT}/Headers/Public/AMapFoundation-NO-IDFA" "${PODS_ROOT}/Headers/Public/AMapLocation-NO-IDFA" "${PODS_ROOT}/Headers/Public/AMapSearch-NO-IDFA" "${PODS_ROOT}/Headers/Public/AliPay" "${PODS_ROOT}/Headers/Public/JPush-iOS-SDK" "${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA" "${PODS_ROOT}/Headers/Public/libWeChatSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/libWeChatSDK" $(inherited) "${PODS_ROOT}/libWeChatSDK"
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AMap3DMap-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AMapFoundation-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AMapLocation-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AMapSearch-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AliPay" -isystem "${PODS_ROOT}/Headers/Public/JPush-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/libWeChatSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDK" -l"c++" -l"sqlite3.0" -l"z" -framework "AlipaySDK" -framework "CFNetwork" -framework "CoreTelephony" -framework "SystemConfiguration"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/../Pods

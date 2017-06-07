@@ -1,0 +1,2785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E75B3643E50D09AB4F8E5B3A962323 = {
+			isa = PBXBuildFile;
+			fileRef = BF11201D7BD03CF7BAF58AF71CD96586;
+		};
+		06FD84AF209624599A213358A58A9FA0 = {
+			isa = PBXBuildFile;
+			fileRef = 9848869A7D380363A96F58EA51598B82;
+		};
+		08FF7B25FD621684705B5F0E62EE7BDC = {
+			isa = PBXBuildFile;
+			fileRef = CEC22C73C1608DFA5D5D78BDCB218219;
+		};
+		09FBCB5AB662B2DFEB00343029A248A4 = {
+			isa = PBXBuildFile;
+			fileRef = 25380C07593ED21C1DCC86CDF810BC77;
+		};
+		179BCB11833E91E87D1D2D3D9A35F5C4 = {
+			isa = PBXBuildFile;
+			fileRef = E5158F384B3F83168323A83E1A45081E;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		194643B83912E6D819610AD05A8AA441 = {
+			isa = PBXBuildFile;
+			fileRef = 2485442FD3757108EC63F81CBB6591BD;
+		};
+		1DE5BAA61C8D38F3916AF3ED7CC2EA60 = {
+			isa = PBXBuildFile;
+			fileRef = 62BECD2737B72C43E2A39B298567F9D7;
+		};
+		2A93087B3203A63842FC7819C81C67A7 = {
+			isa = PBXBuildFile;
+			fileRef = F33117C5AB95FD0A9556526E0DCE441A;
+		};
+		2E412ED474CBBF7188E2E0CBCEA10A82 = {
+			isa = PBXBuildFile;
+			fileRef = 17B0421303DA564A7007AA2B56ABBE26;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		3460C43045E862AF7030A8D1D6E0ED3A = {
+			isa = PBXBuildFile;
+			fileRef = D478082782BD2CB2F28A2E5FC413F9A1;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		39E433C1432D65D72257F528E0E9C990 = {
+			isa = PBXBuildFile;
+			fileRef = 4D687C8CBE68D195C12C5EB70BB6DBEA;
+		};
+		3A6AF3B79A06E27D79B9EDD5B363AC98 = {
+			isa = PBXBuildFile;
+			fileRef = A5D146E6CEF1FB19757E980E4B726F8D;
+		};
+		46D5DB0D5415082BDEB3FDCD222CEE41 = {
+			isa = PBXBuildFile;
+			fileRef = 051970095CBD981D5D66039ADB089634;
+		};
+		4849D841974A0DAB98FD126C45063A2D = {
+			isa = PBXBuildFile;
+			fileRef = 3A5A6B612C550618A33168A9B01D16B8;
+		};
+		5189B186B2725E75E840B0CAF351863F = {
+			isa = PBXBuildFile;
+			fileRef = B20C34984CFAEFB481708C5659F7DD4F;
+		};
+		54C3461BF438600D5B38598F7F709B35 = {
+			isa = PBXBuildFile;
+			fileRef = 0D1E50D69EE0F4460FA2676F1B458818;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		59ADBE7D4598617242D34B338BDB6784 = {
+			isa = PBXBuildFile;
+			fileRef = F553028F9ED1CDC370C788C8FBD24E4F;
+		};
+		5DD2DD0DAED28CBC091BF27ABC20F788 = {
+			isa = PBXBuildFile;
+			fileRef = 04C5631A7BBBBE14275E1DA06B4127D0;
+		};
+		5E5AF98F5A92BCDEC6B8DB3F6D27A16E = {
+			isa = PBXBuildFile;
+			fileRef = E14D3715F2BB55E3A7C936B177AC1C10;
+		};
+		5F2AF96FEEB3E8AF269A4623ABBE1B2A = {
+			isa = PBXBuildFile;
+			fileRef = CEC22C73C1608DFA5D5D78BDCB218219;
+		};
+		727C9F3ECB8D79F9A99247C9DFB29D55 = {
+			isa = PBXBuildFile;
+			fileRef = A24EEF6A2FFBB6BFE6FFD2FBD3FEE77B;
+		};
+		832F75AF38046C526E839725646E9C80 = {
+			isa = PBXBuildFile;
+			fileRef = A13570DED14E0C5CE2FAE264160BECC0;
+		};
+		84DF858D0E58AC525C3D958D6B24D749 = {
+			isa = PBXBuildFile;
+			fileRef = CEC22C73C1608DFA5D5D78BDCB218219;
+		};
+		891929E4778D86FF113D2C77BAE7032E = {
+			isa = PBXBuildFile;
+			fileRef = 6311591E38B99C9E88DF0E6B3C0A61C8;
+		};
+		9988E29FB491A299C34904C713D68C6F = {
+			isa = PBXBuildFile;
+			fileRef = 53AB21C5635D5D8477F7AE5354EEF7FB;
+		};
+		A19C79218EE0D2461A470AA5B1442AA0 = {
+			isa = PBXBuildFile;
+			fileRef = 66511804BF0A062B62905DE921A74088;
+		};
+		A718BEB1206746FD38D18571F9E39ED8 = {
+			isa = PBXBuildFile;
+			fileRef = 8F62A0AF69F0DFE5FFABEB41DC19ACFA;
+		};
+		A995D94C702CB8CFA63ADA8631540379 = {
+			isa = PBXBuildFile;
+			fileRef = CEC22C73C1608DFA5D5D78BDCB218219;
+		};
+		AA81168BC725B7B6F88537DF2853DBC6 = {
+			isa = PBXBuildFile;
+			fileRef = 7C601F638A43C5B9D8B6750BDE99B32B;
+		};
+		B7AF67EC1290A249A041355D4776F3C2 = {
+			isa = PBXBuildFile;
+			fileRef = DD637B79596289D891DB4E2026BF406F;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		D2DC075C1B55E3EB996AD4FC41307B46 = {
+			isa = PBXBuildFile;
+			fileRef = CEC22C73C1608DFA5D5D78BDCB218219;
+		};
+		DF742AA6629A54825A654C46DD003EF9 = {
+			isa = PBXBuildFile;
+			fileRef = A0C211C8C1EB3A5267E4F112684A99A3;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BAF62222C1629A0B990D91945FFC92B = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE42DB6DF6A3DE525D05F5B914C4918;
+			remoteInfo = Alamofire;
+		};
+		8F7693A3F70E1F2423182FB4AA87514C = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE42DB6DF6A3DE525D05F5B914C4918;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0081D77DD34104859B219D5100967184 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-FNPayment-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		025EF072FEBA1541D97CC2D1F55B427B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MATraceLocation.h;
+			path = MAMapKit.framework/Headers/MATraceLocation.h;
+			sourceTree = "<group>";
+		};
+		04AC0639F6A1E92232CA2EB2E7B50B10 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAConfig.h;
+			path = MAMapKit.framework/Headers/MAConfig.h;
+			sourceTree = "<group>";
+		};
+		04C5631A7BBBBE14275E1DA06B4127D0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Validation.swift;
+			path = Source/Validation.swift;
+			sourceTree = "<group>";
+		};
+		051970095CBD981D5D66039ADB089634 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-FNSwiftNetInterface-dummy.m";
+			sourceTree = "<group>";
+		};
+		05D0F1DF8EDFB0F48CFFC40A4E0D7AAB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOfflineMap.h;
+			path = MAMapKit.framework/Headers/MAOfflineMap.h;
+			sourceTree = "<group>";
+		};
+		0616ED596EC6349B2367617454F949D6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = "wrapper.plug-in";
+			name = AMap.bundle;
+			path = MAMapKit.framework/AMap.bundle;
+			sourceTree = "<group>";
+		};
+		07BA3CC31D652A9B28B9CC49D87303E0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = Alamofire.xcconfig;
+			sourceTree = "<group>";
+		};
+		08E53001FFA9E22F04248075200EC2DD = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			path = AMapLocationKit.framework;
+			sourceTree = "<group>";
+		};
+		090C0D0B70C1F2534234D65AB0953338 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FNPayment.debug.xcconfig";
+			sourceTree = "<group>";
+		};
+		095B719F1BB060D5A7F32D9D81B9BE83 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapLocationRegionObj.h;
+			path = AMapLocationKit.framework/Headers/AMapLocationRegionObj.h;
+			sourceTree = "<group>";
+		};
+		0BADCF04EB1828DA93D0A2E240E42837 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = archive.ar;
+			name = "libjpush-ios-2.1.9.a";
+			path = "lib/libjpush-ios-2.1.9.a";
+			sourceTree = "<group>";
+		};
+		0BED39C2A91655B6C556CA8D250606B7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-FeiNiu_User-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		0D1E50D69EE0F4460FA2676F1B458818 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-FNSwiftNetInterface-umbrella.h";
+			sourceTree = "<group>";
+		};
+		0FFCD8B39F0C41BA2DAF9C2F821EACF9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAGeometry.h;
+			path = MAMapKit.framework/Headers/MAGeometry.h;
+			sourceTree = "<group>";
+		};
+		1167F5A1FD85E6C4E235A98418CB18E3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-FNSwiftNetInterface-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		13A66092DE54C7065E674D6944F00AEF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FeiNiu_User.debug.xcconfig";
+			sourceTree = "<group>";
+		};
+		17B0421303DA564A7007AA2B56ABBE26 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-FeiNiu_User-umbrella.h";
+			sourceTree = "<group>";
+		};
+		1957C5BEF5A8B2CF35DD4ABEFB2AF7DF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOfflineItemCommonCity.h;
+			path = MAMapKit.framework/Headers/MAOfflineItemCommonCity.h;
+			sourceTree = "<group>";
+		};
+		195BA7EF9B1AE54B64901CF5E9A4B81F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-FNPayment-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		196BB0686260264A6F803E2FF8215FD4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MATileOverlay.h;
+			path = MAMapKit.framework/Headers/MATileOverlay.h;
+			sourceTree = "<group>";
+		};
+		1AFDA4587B0CF97B642CBC0E37D01E28 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-FeiNiu_Merchant-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		1C88D771B2E0D2B0A57CA12E7DE1E93A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Pods-FNPayment.modulemap";
+			sourceTree = "<group>";
+		};
+		2485442FD3757108EC63F81CBB6591BD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Response.swift;
+			path = Source/Response.swift;
+			sourceTree = "<group>";
+		};
+		25380C07593ED21C1DCC86CDF810BC77 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = ResponseSerialization.swift;
+			path = Source/ResponseSerialization.swift;
+			sourceTree = "<group>";
+		};
+		27E5C9F44D979434887DB0E4BE221366 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_FNSwiftNetInterface.framework;
+			path = "Pods-FNSwiftNetInterface.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2CF0DD18F75584D8F2F66C8A9509C1C3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FNSwiftNetInterface-resources.sh";
+			sourceTree = "<group>";
+		};
+		368FBFF68B985732F948068FA7571A55 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMultiColoredPolylineRenderer.h;
+			path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h;
+			sourceTree = "<group>";
+		};
+		396F625441C469ABB381805CFF4D314C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAPinAnnotationView.h;
+			path = MAMapKit.framework/Headers/MAPinAnnotationView.h;
+			sourceTree = "<group>";
+		};
+		3A5A6B612C550618A33168A9B01D16B8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = MultipartFormData.swift;
+			path = Source/MultipartFormData.swift;
+			sourceTree = "<group>";
+		};
+		3BC4E8AB1B38544AE4E2433C0977ADCC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOverlayRenderer.h;
+			path = MAMapKit.framework/Headers/MAOverlayRenderer.h;
+			sourceTree = "<group>";
+		};
+		3EA6B40900596A96625B3D9125EE5C8F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOfflineItemNationWide.h;
+			path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h;
+			sourceTree = "<group>";
+		};
+		44A2DFBCFB0700F0B5B89110849CBE76 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAAnnotation.h;
+			path = MAMapKit.framework/Headers/MAAnnotation.h;
+			sourceTree = "<group>";
+		};
+		4686C5A4FAAE58B00F209A72A77BECB0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FeiNiu_Merchant.adhoc.xcconfig";
+			sourceTree = "<group>";
+		};
+		4984464246EF482B3D0C21EE11BB468C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapCommonObj.h;
+			path = AMapSearchKit.framework/Headers/AMapCommonObj.h;
+			sourceTree = "<group>";
+		};
+		4AA7A6AA0610D9017EDB451D2A3CED0D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAAnnotationView.h;
+			path = MAMapKit.framework/Headers/MAAnnotationView.h;
+			sourceTree = "<group>";
+		};
+		4ACE95F98E1E271E55748ACE72792C2D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FNPayment.adhoc.xcconfig";
+			sourceTree = "<group>";
+		};
+		4BC1B247C0365DEF93551C97B67C55C0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapSearchVersion.h;
+			path = AMapSearchKit.framework/Headers/AMapSearchVersion.h;
+			sourceTree = "<group>";
+		};
+		4D687C8CBE68D195C12C5EB70BB6DBEA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-FeiNiu_User-dummy.m";
+			sourceTree = "<group>";
+		};
+		4D81DE0AA6A71019643E6E6F7C5DED38 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_FeiNiu_Merchant.framework;
+			path = "Pods-FeiNiu_Merchant.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F4A88D811CB95E5096FC69FB7C95C5E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapFoundationVersion.h;
+			path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h;
+			sourceTree = "<group>";
+		};
+		53AB21C5635D5D8477F7AE5354EEF7FB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = "DispatchQueue+Alamofire.swift";
+			path = "Source/DispatchQueue+Alamofire.swift";
+			sourceTree = "<group>";
+		};
+		55234E9AD8A14139C33B710AC2629FCC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAGroundOverlayRenderer.h;
+			path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h;
+			sourceTree = "<group>";
+		};
+		56B1DB6BE031F892FE648DCEA8D0D231 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FeiNiu_Merchant.debug.xcconfig";
+			sourceTree = "<group>";
+		};
+		5920D19B78C42F50DC154CBB84EAE71A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = JPUSHService.h;
+			path = lib/JPUSHService.h;
+			sourceTree = "<group>";
+		};
+		5C5A54811EA0DF00D0A42AB212A8432D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MACircle.h;
+			path = MAMapKit.framework/Headers/MACircle.h;
+			sourceTree = "<group>";
+		};
+		62BECD2737B72C43E2A39B298567F9D7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-FeiNiu_Merchant-dummy.m";
+			sourceTree = "<group>";
+		};
+		6311591E38B99C9E88DF0E6B3C0A61C8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = NetworkReachabilityManager.swift;
+			path = Source/NetworkReachabilityManager.swift;
+			sourceTree = "<group>";
+		};
+		634FE4D5546CD608D2D7B86BF36DA8E9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FNSwiftNetInterface.adhoc.xcconfig";
+			sourceTree = "<group>";
+		};
+		638CDF263805BCB21D57CB3998D6ADD0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAPolygon.h;
+			path = MAMapKit.framework/Headers/MAPolygon.h;
+			sourceTree = "<group>";
+		};
+		66511804BF0A062B62905DE921A74088 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = TaskDelegate.swift;
+			path = Source/TaskDelegate.swift;
+			sourceTree = "<group>";
+		};
+		674B2E8C405FD091397021323E760853 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAAnimatedAnnotation.h;
+			path = MAMapKit.framework/Headers/MAAnimatedAnnotation.h;
+			sourceTree = "<group>";
+		};
+		6A60BF49386CE9D4C216496EFDD51667 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			path = AMapFoundationKit.framework;
+			sourceTree = "<group>";
+		};
+		6AFE7188C370F29EE6345330461B2CDE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FeiNiu_Merchant-resources.sh";
+			sourceTree = "<group>";
+		};
+		6CE1E0DDAE3AD647537C1E189FB11140 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapLocationManager.h;
+			path = AMapLocationKit.framework/Headers/AMapLocationManager.h;
+			sourceTree = "<group>";
+		};
+		6E9E335A1AD2E89F0D355EB944657535 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-FNSwiftNetInterface-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		6EED82FAF4402E899C7E652ED618D33F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			path = AlipaySDK.framework;
+			sourceTree = "<group>";
+		};
+		700D6B5EA30422C15A989DC16FFAE226 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAAnnotationMoveAnimation.h;
+			path = MAMapKit.framework/Headers/MAAnnotationMoveAnimation.h;
+			sourceTree = "<group>";
+		};
+		70C33896B612F1867E5FFAF1C49BF2DD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAPolylineRenderer.h;
+			path = MAMapKit.framework/Headers/MAPolylineRenderer.h;
+			sourceTree = "<group>";
+		};
+		70EAFC18FA67BBC77238F64A882652C4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-FeiNiu_User-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		70F80F5FA41D1DEBFAD5A1588AE51F74 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOfflineCity.h;
+			path = MAMapKit.framework/Headers/MAOfflineCity.h;
+			sourceTree = "<group>";
+		};
+		730D6A49DE7DA91C5C37081E37DA24EC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FeiNiu_User.adhoc.xcconfig";
+			sourceTree = "<group>";
+		};
+		77F153433E2D1E8FD4E04BC22A5C55F9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAGeodesicPolyline.h;
+			path = MAMapKit.framework/Headers/MAGeodesicPolyline.h;
+			sourceTree = "<group>";
+		};
+		7B0A3F5E97D76E9BD8B795C338083D80 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = "wrapper.plug-in";
+			path = AlipaySDK.bundle;
+			sourceTree = "<group>";
+		};
+		7B94CC2C60EB99C458652B1C4C2B78EA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapURLSearch.h;
+			path = AMapFoundationKit.framework/Headers/AMapURLSearch.h;
+			sourceTree = "<group>";
+		};
+		7C601F638A43C5B9D8B6750BDE99B32B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = ServerTrustPolicy.swift;
+			path = Source/ServerTrustPolicy.swift;
+			sourceTree = "<group>";
+		};
+		7D2D77AF3CAF3D8DB705F5FD1E131643 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FeiNiu_Merchant-frameworks.sh";
+			sourceTree = "<group>";
+		};
+		7DA1D487D67A8C650156E577E4902EB6 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_FNPayment.framework;
+			path = "Pods-FNPayment.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8114080046132C6856A5268B4D3F1E8B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		823563ADAEB4E99AB7ECEA41A5098B1F = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Alamofire.framework;
+			path = Alamofire.framework;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8DAC8046EE065761DBDBE348876AA1A7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-FeiNiu_Merchant-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		8F62A0AF69F0DFE5FFABEB41DC19ACFA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = SessionDelegate.swift;
+			path = Source/SessionDelegate.swift;
+			sourceTree = "<group>";
+		};
+		90ADDE6797C629AC51F010A8BCE38BE6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOfflineItem.h;
+			path = MAMapKit.framework/Headers/MAOfflineItem.h;
+			sourceTree = "<group>";
+		};
+		9161FFC0B418A2DB97BFBD1914779B55 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 = {
+			isa = PBXFileReference;
+			explicitFileType = text.script.ruby;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			name = Podfile;
+			path = ../Podfile;
+			sourceTree = SOURCE_ROOT;
+			xcLanguageSpecificationIdentifier = xcode.lang.ruby;
+		};
+		93BDBAB4898B8CE72848F551D6CDA652 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Pods-FeiNiu_User.modulemap";
+			sourceTree = "<group>";
+		};
+		9848869A7D380363A96F58EA51598B82 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Alamofire-dummy.m";
+			sourceTree = "<group>";
+		};
+		990C9CEC5D2647A85CBE487A90BE7464 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapGeoFenceRegionObj.h;
+			path = AMapLocationKit.framework/Headers/AMapGeoFenceRegionObj.h;
+			sourceTree = "<group>";
+		};
+		9BF56CD98E346DCEE079DAB440E8729A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FNSwiftNetInterface-frameworks.sh";
+			sourceTree = "<group>";
+		};
+		9DC77FF7454E23EB2B720C7FC6C7EBE2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapSearchAPI.h;
+			path = AMapSearchKit.framework/Headers/AMapSearchAPI.h;
+			sourceTree = "<group>";
+		};
+		9EAA023DED94013ACFDBD2FF6D02E356 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		A012A85EE01ED20846CCD17D51E5ABDD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapFoundationKit.h;
+			path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h;
+			sourceTree = "<group>";
+		};
+		A0C211C8C1EB3A5267E4F112684A99A3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Timeline.swift;
+			path = Source/Timeline.swift;
+			sourceTree = "<group>";
+		};
+		A13570DED14E0C5CE2FAE264160BECC0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Alamofire.swift;
+			path = Source/Alamofire.swift;
+			sourceTree = "<group>";
+		};
+		A13E181F6A9D156A98D3437E937E5452 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = WXApiObject.h;
+			sourceTree = "<group>";
+		};
+		A24EEF6A2FFBB6BFE6FFD2FBD3FEE77B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-FNPayment-dummy.m";
+			sourceTree = "<group>";
+		};
+		A2E032AC2F28ACA2103FD558DBACFADC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Alamofire-prefix.pch";
+			sourceTree = "<group>";
+		};
+		A4AC8BA472905E3746C79C9DCFA6B5B9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMultiTexturePolylineRenderer.h;
+			path = MAMapKit.framework/Headers/MAMultiTexturePolylineRenderer.h;
+			sourceTree = "<group>";
+		};
+		A5D146E6CEF1FB19757E980E4B726F8D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Notifications.swift;
+			path = Source/Notifications.swift;
+			sourceTree = "<group>";
+		};
+		A8F6B0A9686875DC1D484C98A94C94C2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMapKit.h;
+			path = MAMapKit.framework/Headers/MAMapKit.h;
+			sourceTree = "<group>";
+		};
+		AACE8442457A5F592241DF4E09BB12C9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAGroundOverlay.h;
+			path = MAMapKit.framework/Headers/MAGroundOverlay.h;
+			sourceTree = "<group>";
+		};
+		AC961114216EDF5FCA2DC050B661279D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAPointAnnotation.h;
+			path = MAMapKit.framework/Headers/MAPointAnnotation.h;
+			sourceTree = "<group>";
+		};
+		ACE663AC8C866276C9674AF698980055 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = archive.ar;
+			path = libWeChatSDK.a;
+			sourceTree = "<group>";
+		};
+		ADEC2B72385722282B434950FD867E58 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			path = AMapSearchKit.framework;
+			sourceTree = "<group>";
+		};
+		AF61D7384090C5DB1021670B7657C00A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapURLSearchConfig.h;
+			path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h;
+			sourceTree = "<group>";
+		};
+		B1C5650C1A0BF80DB81B0FBB98432911 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FNSwiftNetInterface.debug.xcconfig";
+			sourceTree = "<group>";
+		};
+		B20C34984CFAEFB481708C5659F7DD4F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = ParameterEncoding.swift;
+			path = Source/ParameterEncoding.swift;
+			sourceTree = "<group>";
+		};
+		B2BB5E21E6B41D985EAFC9E13F87CA10 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAHeatMapTileOverlay.h;
+			path = MAMapKit.framework/Headers/MAHeatMapTileOverlay.h;
+			sourceTree = "<group>";
+		};
+		B4F107EBD8EF81D2A41D39D082B34249 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMapStatus.h;
+			path = MAMapKit.framework/Headers/MAMapStatus.h;
+			sourceTree = "<group>";
+		};
+		B5D5B86EB611DC0FDAC5A4F4A5E7E043 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAUserLocation.h;
+			path = MAMapKit.framework/Headers/MAUserLocation.h;
+			sourceTree = "<group>";
+		};
+		B61C76D4A254BD6518FCF60915C60E08 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MACircleRenderer.h;
+			path = MAMapKit.framework/Headers/MACircleRenderer.h;
+			sourceTree = "<group>";
+		};
+		B6761913A1A1CFCC6D729874195DE137 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FNPayment-frameworks.sh";
+			sourceTree = "<group>";
+		};
+		B734DFEDF3EDB1EC28896FA6008AEE5B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FeiNiu_User-resources.sh";
+			sourceTree = "<group>";
+		};
+		B8D10414617A196ABDB5B61249A81DE0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			path = MAMapKit.framework;
+			sourceTree = "<group>";
+		};
+		B92567D1A3529EFF597A7EA181B23A5C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = Alamofire.modulemap;
+			sourceTree = "<group>";
+		};
+		BB2AA84A3BF3A03C394A3CFC10D267D5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMultiPoint.h;
+			path = MAMapKit.framework/Headers/MAMultiPoint.h;
+			sourceTree = "<group>";
+		};
+		BC9139C4E03C3C72EB204958C9ACFB38 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MATouchPoi.h;
+			path = MAMapKit.framework/Headers/MATouchPoi.h;
+			sourceTree = "<group>";
+		};
+		BC9A6C4599CE23EB0ACC7B77C0F304FC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = WXApi.h;
+			sourceTree = "<group>";
+		};
+		BD9749037B76944DF43FBCDD350A4B4B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FNPayment.release.xcconfig";
+			sourceTree = "<group>";
+		};
+		BF11201D7BD03CF7BAF58AF71CD96586 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = AFError.swift;
+			path = Source/AFError.swift;
+			sourceTree = "<group>";
+		};
+		BFBDBD0A8E4F4A0B2F2FDEDDE462BBAF = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = UMMobClick.framework;
+			path = "umsdk_IOS_analyics_no-idfa_v4.1.9/UMMobClick.framework";
+			sourceTree = "<group>";
+		};
+		C24877F3A0960E78897E9F8A915FEC16 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapServices.h;
+			path = AMapFoundationKit.framework/Headers/AMapServices.h;
+			sourceTree = "<group>";
+		};
+		C4B8BD15EB0A64EB5790CA8871D6D1EF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapSearchObj.h;
+			path = AMapSearchKit.framework/Headers/AMapSearchObj.h;
+			sourceTree = "<group>";
+		};
+		C5C94FFB36B9C5E03B4BBE4E4D8764E2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MALineDrawType.h;
+			path = MAMapKit.framework/Headers/MALineDrawType.h;
+			sourceTree = "<group>";
+		};
+		C822FEF97A2BE4C6A84CC487762FA164 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOfflineItemMunicipality.h;
+			path = MAMapKit.framework/Headers/MAOfflineItemMunicipality.h;
+			sourceTree = "<group>";
+		};
+		C87573CA41E09A441187EDC227C53446 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Pods-FeiNiu_Merchant.modulemap";
+			sourceTree = "<group>";
+		};
+		C8B962FDCC6DDC297CA39D7B262582EB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MATraceManager.h;
+			path = MAMapKit.framework/Headers/MATraceManager.h;
+			sourceTree = "<group>";
+		};
+		CA98C2E75E11D08965475CAC804ACADB = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			name = Pods_FeiNiu_User.framework;
+			path = "Pods-FeiNiu_User.framework";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CABB104DACF3160CD5292B1DA48D71B9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		CB5217012D27FBB44C00811545BCC9E6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapUtility.h;
+			path = AMapFoundationKit.framework/Headers/AMapUtility.h;
+			sourceTree = "<group>";
+		};
+		CC92FA14E55E6DF2C33CF8D8C7FCC05C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		CCDDF01C90FC27EF7D4AF257E3EAF4FA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			path = "Pods-FNSwiftNetInterface.modulemap";
+			sourceTree = "<group>";
+		};
+		CE4DE18B2D267A37EEEAB12C0EB8531C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapGeoFenceManager.h;
+			path = AMapLocationKit.framework/Headers/AMapGeoFenceManager.h;
+			sourceTree = "<group>";
+		};
+		CEC22C73C1608DFA5D5D78BDCB218219 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		D0E38F0BBD741906011BE0A1BB4BF9F3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapSearchError.h;
+			path = AMapSearchKit.framework/Headers/AMapSearchError.h;
+			sourceTree = "<group>";
+		};
+		D2810743FFAF6E26BBF219D6F3BF6627 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FeiNiu_User.release.xcconfig";
+			sourceTree = "<group>";
+		};
+		D2B19E8249F554B4A97A760FA864BA5E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapLocationKit.h;
+			path = AMapLocationKit.framework/Headers/AMapLocationKit.h;
+			sourceTree = "<group>";
+		};
+		D2C30733C21D5140BB65B17F20EEC95F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMultiPolyline.h;
+			path = MAMapKit.framework/Headers/MAMultiPolyline.h;
+			sourceTree = "<group>";
+		};
+		D478082782BD2CB2F28A2E5FC413F9A1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-FeiNiu_Merchant-umbrella.h";
+			sourceTree = "<group>";
+		};
+		D5EA394D2F9D0504F96216C51AE82B89 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapNearbyUploadInfo.h;
+			path = AMapSearchKit.framework/Headers/AMapNearbyUploadInfo.h;
+			sourceTree = "<group>";
+		};
+		D6EE94C4F74CB351A3115296F2D51A51 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMapView.h;
+			path = MAMapKit.framework/Headers/MAMapView.h;
+			sourceTree = "<group>";
+		};
+		D6F52D155B5C92D57D279C08147704D6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAPolyline.h;
+			path = MAMapKit.framework/Headers/MAPolyline.h;
+			sourceTree = "<group>";
+		};
+		D7770A3805D598A011AD687ACAD98A3C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapGeoFenceError.h;
+			path = AMapLocationKit.framework/Headers/AMapGeoFenceError.h;
+			sourceTree = "<group>";
+		};
+		DAE8A4974BC1B7E16D68E3CEFB7FDEAA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOverlay.h;
+			path = MAMapKit.framework/Headers/MAOverlay.h;
+			sourceTree = "<group>";
+		};
+		DB8A3ECB3C97118B63E47FDBF243245A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FNPayment-resources.sh";
+			sourceTree = "<group>";
+		};
+		DBBFE23593A567090CEF71C6E00D53BD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapNearbySearchManager.h;
+			path = AMapSearchKit.framework/Headers/AMapNearbySearchManager.h;
+			sourceTree = "<group>";
+		};
+		DD637B79596289D891DB4E2026BF406F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-FNPayment-umbrella.h";
+			sourceTree = "<group>";
+		};
+		DDD041E5B0416CB0A3BB689C65057432 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FNSwiftNetInterface.release.xcconfig";
+			sourceTree = "<group>";
+		};
+		E14D3715F2BB55E3A7C936B177AC1C10 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Request.swift;
+			path = Source/Request.swift;
+			sourceTree = "<group>";
+		};
+		E1F37B9F4721EF58E1D3CF9797111ADE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-FeiNiu_Merchant.release.xcconfig";
+			sourceTree = "<group>";
+		};
+		E5158F384B3F83168323A83E1A45081E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Alamofire-umbrella.h";
+			sourceTree = "<group>";
+		};
+		E643D0B3E894B03CFDCF01749B0AEAE2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAIndoorInfo.h;
+			path = MAMapKit.framework/Headers/MAIndoorInfo.h;
+			sourceTree = "<group>";
+		};
+		EB3410AEECCFDB1C2879DB8F5478719F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOverlayPathRenderer.h;
+			path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h;
+			sourceTree = "<group>";
+		};
+		ED843706A4901D0F4A4951FC6B7B42F6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapSearchKit.h;
+			path = AMapSearchKit.framework/Headers/AMapSearchKit.h;
+			sourceTree = "<group>";
+		};
+		EDB1EE4461423997B1BC34210435913B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-FeiNiu_User-frameworks.sh";
+			sourceTree = "<group>";
+		};
+		F1C360651E170F1E652B3A66361F05C5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAShape.h;
+			path = MAMapKit.framework/Headers/MAShape.h;
+			sourceTree = "<group>";
+		};
+		F24AB379C5AE542EA7DD0422E94438A7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapLocationCommonObj.h;
+			path = AMapLocationKit.framework/Headers/AMapLocationCommonObj.h;
+			sourceTree = "<group>";
+		};
+		F33117C5AB95FD0A9556526E0DCE441A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = SessionManager.swift;
+			path = Source/SessionManager.swift;
+			sourceTree = "<group>";
+		};
+		F464312F57DC037583847F781CECA6C8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapLocationVersion.h;
+			path = AMapLocationKit.framework/Headers/AMapLocationVersion.h;
+			sourceTree = "<group>";
+		};
+		F553028F9ED1CDC370C788C8FBD24E4F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.swift;
+			name = Result.swift;
+			path = Source/Result.swift;
+			sourceTree = "<group>";
+		};
+		F6ACD5BD97A438756C36EB409BFB44EF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = AMapURLSearchType.h;
+			path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h;
+			sourceTree = "<group>";
+		};
+		FA064AC2DE57D2D58BB4C9EBCD5EE5AC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MATileOverlayRenderer.h;
+			path = MAMapKit.framework/Headers/MATileOverlayRenderer.h;
+			sourceTree = "<group>";
+		};
+		FBA2E7B55174360ECCE49F136273C844 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAOfflineProvince.h;
+			path = MAMapKit.framework/Headers/MAOfflineProvince.h;
+			sourceTree = "<group>";
+		};
+		FCE6A81A03F8B9D4F180065D1FAEC022 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAPolygonRenderer.h;
+			path = MAMapKit.framework/Headers/MAPolygonRenderer.h;
+			sourceTree = "<group>";
+		};
+		FDF41D8B51D09FFB7E16C11B2DC9187A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MAMapVersion.h;
+			path = MAMapKit.framework/Headers/MAMapVersion.h;
+			sourceTree = "<group>";
+		};
+		FF6EB96E5BD1CF22154668155DE7EB97 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = WechatAuthSDK.h;
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553320402D6C3C7CC4042CFE5048B1C2 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2AF96FEEB3E8AF269A4623ABBE1B2A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C95427D702427E43583D51D7B0A045C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A995D94C702CB8CFA63ADA8631540379,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D92723632D821FCBBC4E2E22347F9B = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DC075C1B55E3EB996AD4FC41307B46,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68C1B401C980B670BB84107DDC7F545 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DF858D0E58AC525C3D958D6B24D749,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BD843E55063480212875CFBB11EA6F = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FF7B25FD621684705B5F0E62EE7BDC,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FD92209239E55BCE70E9062EE8F499 = {
+			isa = PBXGroup;
+			children = (
+				0BADCF04EB1828DA93D0A2E240E42837,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CEF906B4287201589B21CABE792735C = {
+			isa = PBXGroup;
+			children = (
+				5920D19B78C42F50DC154CBB84EAE71A,
+				04FD92209239E55BCE70E9062EE8F499,
+			);
+			name = "JPush-iOS-SDK";
+			path = "JPush-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		0DDBEB2D98E256364ED877422CC5CEBD = {
+			isa = PBXGroup;
+			children = (
+				9EAA023DED94013ACFDBD2FF6D02E356,
+				CCDDF01C90FC27EF7D4AF257E3EAF4FA,
+				1167F5A1FD85E6C4E235A98418CB18E3,
+				6E9E335A1AD2E89F0D355EB944657535,
+				051970095CBD981D5D66039ADB089634,
+				9BF56CD98E346DCEE079DAB440E8729A,
+				2CF0DD18F75584D8F2F66C8A9509C1C3,
+				0D1E50D69EE0F4460FA2676F1B458818,
+				634FE4D5546CD608D2D7B86BF36DA8E9,
+				B1C5650C1A0BF80DB81B0FBB98432911,
+				DDD041E5B0416CB0A3BB689C65057432,
+			);
+			name = "Pods-FNSwiftNetInterface";
+			path = "Target Support Files/Pods-FNSwiftNetInterface";
+			sourceTree = "<group>";
+		};
+		1D2CFB13FD7425FB3B53150D75FFFC12 = {
+			isa = PBXGroup;
+			children = (
+				B8D10414617A196ABDB5B61249A81DE0,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EEA5F92CE9640AAD5C932C0A3853D57 = {
+			isa = PBXGroup;
+			children = (
+				BFBDBD0A8E4F4A0B2F2FDEDDE462BBAF,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		292B67ECDC5C8874A1B529DEBA97A94D = {
+			isa = PBXGroup;
+			children = (
+				7B0A3F5E97D76E9BD8B795C338083D80,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2CC40F7C44ACC51E12213208D5DFBA98 = {
+			isa = PBXGroup;
+			children = (
+				ACE663AC8C866276C9674AF698980055,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43A1FC3EC04A2E5B4919BDECFA94C962 = {
+			isa = PBXGroup;
+			children = (
+				B92567D1A3529EFF597A7EA181B23A5C,
+				07BA3CC31D652A9B28B9CC49D87303E0,
+				9848869A7D380363A96F58EA51598B82,
+				A2E032AC2F28ACA2103FD558DBACFADC,
+				E5158F384B3F83168323A83E1A45081E,
+				CABB104DACF3160CD5292B1DA48D71B9,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		50D435F2D5E9335D79EF7409E7EDEA29 = {
+			isa = PBXGroup;
+			children = (
+				A012A85EE01ED20846CCD17D51E5ABDD,
+				4F4A88D811CB95E5096FC69FB7C95C5E,
+				C24877F3A0960E78897E9F8A915FEC16,
+				7B94CC2C60EB99C458652B1C4C2B78EA,
+				AF61D7384090C5DB1021670B7657C00A,
+				F6ACD5BD97A438756C36EB409BFB44EF,
+				CB5217012D27FBB44C00811545BCC9E6,
+				DFE4AD910C6C4C0F79DDBDC18BEA3FE7,
+			);
+			name = "AMapFoundation-NO-IDFA";
+			path = "AMapFoundation-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		5748B8F63F0C82535140EEB3BE1F41B4 = {
+			isa = PBXGroup;
+			children = (
+				83D12E2D68CCAE4CFE9A1CEE6E57E77B,
+				292B67ECDC5C8874A1B529DEBA97A94D,
+			);
+			name = AliPay;
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		5AABCA88764AFF2B833A9BB4DD23B0F8 = {
+			isa = PBXGroup;
+			children = (
+				FF6EB96E5BD1CF22154668155DE7EB97,
+				BC9A6C4599CE23EB0ACC7B77C0F304FC,
+				A13E181F6A9D156A98D3437E937E5452,
+				2CC40F7C44ACC51E12213208D5DFBA98,
+			);
+			name = libWeChatSDK;
+			path = libWeChatSDK;
+			sourceTree = "<group>";
+		};
+		5BFCE4D71BBF36C953572FF791EE766A = {
+			isa = PBXGroup;
+			children = (
+				D7770A3805D598A011AD687ACAD98A3C,
+				CE4DE18B2D267A37EEEAB12C0EB8531C,
+				990C9CEC5D2647A85CBE487A90BE7464,
+				F24AB379C5AE542EA7DD0422E94438A7,
+				D2B19E8249F554B4A97A760FA864BA5E,
+				6CE1E0DDAE3AD647537C1E189FB11140,
+				095B719F1BB060D5A7F32D9D81B9BE83,
+				F464312F57DC037583847F781CECA6C8,
+				C172F36270046B495BF0E4DCF862DCFF,
+			);
+			name = "AMapLocation-NO-IDFA";
+			path = "AMapLocation-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		6CAD02A7F8CB2E15F17BE09E5EE8831A = {
+			isa = PBXGroup;
+			children = (
+				CC92FA14E55E6DF2C33CF8D8C7FCC05C,
+				C87573CA41E09A441187EDC227C53446,
+				1AFDA4587B0CF97B642CBC0E37D01E28,
+				8DAC8046EE065761DBDBE348876AA1A7,
+				62BECD2737B72C43E2A39B298567F9D7,
+				7D2D77AF3CAF3D8DB705F5FD1E131643,
+				6AFE7188C370F29EE6345330461B2CDE,
+				D478082782BD2CB2F28A2E5FC413F9A1,
+				4686C5A4FAAE58B00F209A72A77BECB0,
+				56B1DB6BE031F892FE648DCEA8D0D231,
+				E1F37B9F4721EF58E1D3CF9797111ADE,
+			);
+			name = "Pods-FeiNiu_Merchant";
+			path = "Target Support Files/Pods-FeiNiu_Merchant";
+			sourceTree = "<group>";
+		};
+		779089B1F588322721B6AFFB0BA8E640 = {
+			isa = PBXGroup;
+			children = (
+				674B2E8C405FD091397021323E760853,
+				44A2DFBCFB0700F0B5B89110849CBE76,
+				700D6B5EA30422C15A989DC16FFAE226,
+				4AA7A6AA0610D9017EDB451D2A3CED0D,
+				5C5A54811EA0DF00D0A42AB212A8432D,
+				B61C76D4A254BD6518FCF60915C60E08,
+				04AC0639F6A1E92232CA2EB2E7B50B10,
+				77F153433E2D1E8FD4E04BC22A5C55F9,
+				0FFCD8B39F0C41BA2DAF9C2F821EACF9,
+				AACE8442457A5F592241DF4E09BB12C9,
+				55234E9AD8A14139C33B710AC2629FCC,
+				B2BB5E21E6B41D985EAFC9E13F87CA10,
+				E643D0B3E894B03CFDCF01749B0AEAE2,
+				C5C94FFB36B9C5E03B4BBE4E4D8764E2,
+				A8F6B0A9686875DC1D484C98A94C94C2,
+				B4F107EBD8EF81D2A41D39D082B34249,
+				FDF41D8B51D09FFB7E16C11B2DC9187A,
+				D6EE94C4F74CB351A3115296F2D51A51,
+				368FBFF68B985732F948068FA7571A55,
+				BB2AA84A3BF3A03C394A3CFC10D267D5,
+				D2C30733C21D5140BB65B17F20EEC95F,
+				A4AC8BA472905E3746C79C9DCFA6B5B9,
+				70F80F5FA41D1DEBFAD5A1588AE51F74,
+				90ADDE6797C629AC51F010A8BCE38BE6,
+				1957C5BEF5A8B2CF35DD4ABEFB2AF7DF,
+				C822FEF97A2BE4C6A84CC487762FA164,
+				3EA6B40900596A96625B3D9125EE5C8F,
+				05D0F1DF8EDFB0F48CFFC40A4E0D7AAB,
+				FBA2E7B55174360ECCE49F136273C844,
+				DAE8A4974BC1B7E16D68E3CEFB7FDEAA,
+				EB3410AEECCFDB1C2879DB8F5478719F,
+				3BC4E8AB1B38544AE4E2433C0977ADCC,
+				396F625441C469ABB381805CFF4D314C,
+				AC961114216EDF5FCA2DC050B661279D,
+				638CDF263805BCB21D57CB3998D6ADD0,
+				FCE6A81A03F8B9D4F180065D1FAEC022,
+				D6F52D155B5C92D57D279C08147704D6,
+				70C33896B612F1867E5FFAF1C49BF2DD,
+				F1C360651E170F1E652B3A66361F05C5,
+				196BB0686260264A6F803E2FF8215FD4,
+				FA064AC2DE57D2D58BB4C9EBCD5EE5AC,
+				BC9139C4E03C3C72EB204958C9ACFB38,
+				025EF072FEBA1541D97CC2D1F55B427B,
+				C8B962FDCC6DDC297CA39D7B262582EB,
+				B5D5B86EB611DC0FDAC5A4F4A5E7E043,
+				1D2CFB13FD7425FB3B53150D75FFFC12,
+				DAD75EA950692354DB91153B2321CC43,
+			);
+			name = "AMap3DMap-NO-IDFA";
+			path = "AMap3DMap-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC,
+				DC98349D96AB9B21FC55F5046F179F22,
+				C1E904B78DFF189D5342622A0058931A,
+				84E5033822520486A0B984C515BFCF64,
+			);
+			sourceTree = "<group>";
+		};
+		83D12E2D68CCAE4CFE9A1CEE6E57E77B = {
+			isa = PBXGroup;
+			children = (
+				6EED82FAF4402E899C7E652ED618D33F,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E5033822520486A0B984C515BFCF64 = {
+			isa = PBXGroup;
+			children = (
+				6CAD02A7F8CB2E15F17BE09E5EE8831A,
+				B86F713F2619B33E14B9B8BA00BEE2E2,
+				C637DFB544B834D32350FA1C65E3BEFD,
+				0DDBEB2D98E256364ED877422CC5CEBD,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D3B5B7C5E889649940583DB8262BDB7 = {
+			isa = PBXGroup;
+			children = (
+				1EEA5F92CE9640AAD5C932C0A3853D57,
+			);
+			name = "UMengAnalytics-NO-IDFA";
+			path = "UMengAnalytics-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		B86F713F2619B33E14B9B8BA00BEE2E2 = {
+			isa = PBXGroup;
+			children = (
+				8114080046132C6856A5268B4D3F1E8B,
+				93BDBAB4898B8CE72848F551D6CDA652,
+				70EAFC18FA67BBC77238F64A882652C4,
+				0BED39C2A91655B6C556CA8D250606B7,
+				4D687C8CBE68D195C12C5EB70BB6DBEA,
+				EDB1EE4461423997B1BC34210435913B,
+				B734DFEDF3EDB1EC28896FA6008AEE5B,
+				17B0421303DA564A7007AA2B56ABBE26,
+				730D6A49DE7DA91C5C37081E37DA24EC,
+				13A66092DE54C7065E674D6944F00AEF,
+				D2810743FFAF6E26BBF219D6F3BF6627,
+			);
+			name = "Pods-FeiNiu_User";
+			path = "Target Support Files/Pods-FeiNiu_User";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C172F36270046B495BF0E4DCF862DCFF = {
+			isa = PBXGroup;
+			children = (
+				08E53001FFA9E22F04248075200EC2DD,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E904B78DFF189D5342622A0058931A = {
+			isa = PBXGroup;
+			children = (
+				823563ADAEB4E99AB7ECEA41A5098B1F,
+				4D81DE0AA6A71019643E6E6F7C5DED38,
+				CA98C2E75E11D08965475CAC804ACADB,
+				7DA1D487D67A8C650156E577E4902EB6,
+				27E5C9F44D979434887DB0E4BE221366,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C637DFB544B834D32350FA1C65E3BEFD = {
+			isa = PBXGroup;
+			children = (
+				9161FFC0B418A2DB97BFBD1914779B55,
+				1C88D771B2E0D2B0A57CA12E7DE1E93A,
+				0081D77DD34104859B219D5100967184,
+				195BA7EF9B1AE54B64901CF5E9A4B81F,
+				A24EEF6A2FFBB6BFE6FFD2FBD3FEE77B,
+				B6761913A1A1CFCC6D729874195DE137,
+				DB8A3ECB3C97118B63E47FDBF243245A,
+				DD637B79596289D891DB4E2026BF406F,
+				4ACE95F98E1E271E55748ACE72792C2D,
+				090C0D0B70C1F2534234D65AB0953338,
+				BD9749037B76944DF43FBCDD350A4B4B,
+			);
+			name = "Pods-FNPayment";
+			path = "Target Support Files/Pods-FNPayment";
+			sourceTree = "<group>";
+		};
+		D1B07B03B74178538AB4F6539E75B20D = {
+			isa = PBXGroup;
+			children = (
+				4984464246EF482B3D0C21EE11BB468C,
+				DBBFE23593A567090CEF71C6E00D53BD,
+				D5EA394D2F9D0504F96216C51AE82B89,
+				9DC77FF7454E23EB2B720C7FC6C7EBE2,
+				D0E38F0BBD741906011BE0A1BB4BF9F3,
+				ED843706A4901D0F4A4951FC6B7B42F6,
+				C4B8BD15EB0A64EB5790CA8871D6D1EF,
+				4BC1B247C0365DEF93551C97B67C55C0,
+				DCC833A34B05E3CF2118E2F48438166B,
+			);
+			name = "AMapSearch-NO-IDFA";
+			path = "AMapSearch-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		DAD75EA950692354DB91153B2321CC43 = {
+			isa = PBXGroup;
+			children = (
+				0616ED596EC6349B2367617454F949D6,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC98349D96AB9B21FC55F5046F179F22 = {
+			isa = PBXGroup;
+			children = (
+				FCEFB58EEF55C16016EE96B9175BB42D,
+				5748B8F63F0C82535140EEB3BE1F41B4,
+				779089B1F588322721B6AFFB0BA8E640,
+				50D435F2D5E9335D79EF7409E7EDEA29,
+				5BFCE4D71BBF36C953572FF791EE766A,
+				D1B07B03B74178538AB4F6539E75B20D,
+				0CEF906B4287201589B21CABE792735C,
+				5AABCA88764AFF2B833A9BB4DD23B0F8,
+				8D3B5B7C5E889649940583DB8262BDB7,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCC833A34B05E3CF2118E2F48438166B = {
+			isa = PBXGroup;
+			children = (
+				ADEC2B72385722282B434950FD867E58,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE4AD910C6C4C0F79DDBDC18BEA3FE7 = {
+			isa = PBXGroup;
+			children = (
+				6A60BF49386CE9D4C216496EFDD51667,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCEFB58EEF55C16016EE96B9175BB42D = {
+			isa = PBXGroup;
+			children = (
+				BF11201D7BD03CF7BAF58AF71CD96586,
+				A13570DED14E0C5CE2FAE264160BECC0,
+				53AB21C5635D5D8477F7AE5354EEF7FB,
+				3A5A6B612C550618A33168A9B01D16B8,
+				6311591E38B99C9E88DF0E6B3C0A61C8,
+				A5D146E6CEF1FB19757E980E4B726F8D,
+				B20C34984CFAEFB481708C5659F7DD4F,
+				E14D3715F2BB55E3A7C936B177AC1C10,
+				2485442FD3757108EC63F81CBB6591BD,
+				25380C07593ED21C1DCC86CDF810BC77,
+				F553028F9ED1CDC370C788C8FBD24E4F,
+				7C601F638A43C5B9D8B6750BDE99B32B,
+				8F62A0AF69F0DFE5FFABEB41DC19ACFA,
+				F33117C5AB95FD0A9556526E0DCE441A,
+				66511804BF0A062B62905DE921A74088,
+				A0C211C8C1EB3A5267E4F112684A99A3,
+				04C5631A7BBBBE14275E1DA06B4127D0,
+				43A1FC3EC04A2E5B4919BDECFA94C962,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15EFAAF5BDA818FF19C6F847BA4B7863 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BCB11833E91E87D1D2D3D9A35F5C4,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462F1B673641A9C70471FA85D96CB9A1 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E412ED474CBBF7188E2E0CBCEA10A82,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C72E4CB2BD79AC619CE0E81F12BB39C = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C3461BF438600D5B38598F7F709B35,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AF9FCBC9BE36BC18DAB536712B6F07 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3460C43045E862AF7030A8D1D6E0ED3A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01E0C69687E083884C17F78BDA6A9B2 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7AF67EC1290A249A041355D4776F3C2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12F767DF7B52B91D5D60010A2BA1AA1E = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629469A2EB7F3B357BEFE37A8FB5301D;
+			buildPhases = (
+				3E9F5AF7842BFA3F1113CADACDC3CEE3,
+				79D92723632D821FCBBC4E2E22347F9B,
+				E01E0C69687E083884C17F78BDA6A9B2,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FNPayment";
+			productName = "Pods-FNPayment";
+			productReference = 7DA1D487D67A8C650156E577E4902EB6;
+			productType = "com.apple.product-type.framework";
+		};
+		1E6B9FBEED772822716DE11BD91D2A6C = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47FCA96FCB7D1EE6661E270031EA893;
+			buildPhases = (
+				F42274DF455101EB8EBF5F8335656CCA,
+				553320402D6C3C7CC4042CFE5048B1C2,
+				A5AF9FCBC9BE36BC18DAB536712B6F07,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB28B2C90FCE65F5AF8E32D2434A913,
+			);
+			name = "Pods-FeiNiu_Merchant";
+			productName = "Pods-FeiNiu_Merchant";
+			productReference = 4D81DE0AA6A71019643E6E6F7C5DED38;
+			productType = "com.apple.product-type.framework";
+		};
+		30A343C474EFD36DD56DB83E396016BD = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F9A7A7DD2D390361374BD2023267EB;
+			buildPhases = (
+				52F3FD1C11FA11F90F3EA7B92A957168,
+				6C95427D702427E43583D51D7B0A045C,
+				462F1B673641A9C70471FA85D96CB9A1,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FeiNiu_User";
+			productName = "Pods-FeiNiu_User";
+			productReference = CA98C2E75E11D08965475CAC804ACADB;
+			productType = "com.apple.product-type.framework";
+		};
+		4BE42DB6DF6A3DE525D05F5B914C4918 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEDD77266A1A789FB750BD7DAEFBD28;
+			buildPhases = (
+				A184C02D5ECB3830706C325ADF7453E6,
+				B68C1B401C980B670BB84107DDC7F545,
+				15EFAAF5BDA818FF19C6F847BA4B7863,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 823563ADAEB4E99AB7ECEA41A5098B1F;
+			productType = "com.apple.product-type.framework";
+		};
+		DD915B635AAFF7D4F8805C9944EF77EB = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E60F76348540CF28EF26BDFF67D9142;
+			buildPhases = (
+				57F3198AE7ED79D939A7F30C340556DE,
+				C3BD843E55063480212875CFBB11EA6F,
+				6C72E4CB2BD79AC619CE0E81F12BB39C,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A41510894EAD11505E2C9BC928B018,
+			);
+			name = "Pods-FNSwiftNetInterface";
+			productName = "Pods-FNSwiftNetInterface";
+			productReference = 27E5C9F44D979434887DB0E4BE221366;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C1E904B78DFF189D5342622A0058931A;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				4BE42DB6DF6A3DE525D05F5B914C4918,
+				1E6B9FBEED772822716DE11BD91D2A6C,
+				30A343C474EFD36DD56DB83E396016BD,
+				12F767DF7B52B91D5D60010A2BA1AA1E,
+				DD915B635AAFF7D4F8805C9944EF77EB,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9F5AF7842BFA3F1113CADACDC3CEE3 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727C9F3ECB8D79F9A99247C9DFB29D55,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F3FD1C11FA11F90F3EA7B92A957168 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E433C1432D65D72257F528E0E9C990,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F3198AE7ED79D939A7F30C340556DE = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D5DB0D5415082BDEB3FDCD222CEE41,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A184C02D5ECB3830706C325ADF7453E6 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E75B3643E50D09AB4F8E5B3A962323,
+				06FD84AF209624599A213358A58A9FA0,
+				832F75AF38046C526E839725646E9C80,
+				9988E29FB491A299C34904C713D68C6F,
+				4849D841974A0DAB98FD126C45063A2D,
+				891929E4778D86FF113D2C77BAE7032E,
+				3A6AF3B79A06E27D79B9EDD5B363AC98,
+				5189B186B2725E75E840B0CAF351863F,
+				5E5AF98F5A92BCDEC6B8DB3F6D27A16E,
+				194643B83912E6D819610AD05A8AA441,
+				09FBCB5AB662B2DFEB00343029A248A4,
+				59ADBE7D4598617242D34B338BDB6784,
+				AA81168BC725B7B6F88537DF2853DBC6,
+				A718BEB1206746FD38D18571F9E39ED8,
+				2A93087B3203A63842FC7819C81C67A7,
+				A19C79218EE0D2461A470AA5B1442AA0,
+				DF742AA6629A54825A654C46DD003EF9,
+				5DD2DD0DAED28CBC091BF27ABC20F788,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42274DF455101EB8EBF5F8335656CCA = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE5BAA61C8D38F3916AF3ED7CC2EA60,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7A41510894EAD11505E2C9BC928B018 = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 4BE42DB6DF6A3DE525D05F5B914C4918;
+			targetProxy = 8F7693A3F70E1F2423182FB4AA87514C;
+		};
+		FAB28B2C90FCE65F5AF8E32D2434A913 = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 4BE42DB6DF6A3DE525D05F5B914C4918;
+			targetProxy = 6BAF62222C1629A0B990D91945FFC92B;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		260FFC001F48BFA49B2FA1B1381D2C61 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C5650C1A0BF80DB81B0FBB98432911;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FNSwiftNetInterface/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FNSwiftNetInterface/Pods-FNSwiftNetInterface.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FNSwiftNetInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30BAD3B6C6955236225572E08296BF4F = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634FE4D5546CD608D2D7B86BF36DA8E9;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FNSwiftNetInterface/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FNSwiftNetInterface/Pods-FNSwiftNetInterface.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FNSwiftNetInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AdHoc;
+		};
+		42287DDF97330524BA3EF220F0276DA6 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47BB58F4CCA3946B4C2F63FC541E3A20 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090C0D0B70C1F2534234D65AB0953338;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FNPayment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FNPayment/Pods-FNPayment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FNPayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E43107837E1D57FCD47E089AED7BB39 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2810743FFAF6E26BBF219D6F3BF6627;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeiNiu_User/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeiNiu_User/Pods-FeiNiu_User.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FeiNiu_User;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55C9C94DF00C05C769C5FB8E97A3B9ED = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B1DB6BE031F892FE648DCEA8D0D231;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeiNiu_Merchant/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeiNiu_Merchant/Pods-FeiNiu_Merchant.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FeiNiu_Merchant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5ED3311DC1BDA0BB7087E7A31B71399A = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4686C5A4FAAE58B00F209A72A77BECB0;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeiNiu_Merchant/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeiNiu_Merchant/Pods-FeiNiu_Merchant.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FeiNiu_Merchant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AdHoc;
+		};
+		6351A830385E1D5E51D4899FF9C4922A = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9749037B76944DF43FBCDD350A4B4B;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FNPayment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FNPayment/Pods-FNPayment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FNPayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		639E489E1AA1CF2D6C9FA0E11E23D651 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD041E5B0416CB0A3BB689C65057432;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FNSwiftNetInterface/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FNSwiftNetInterface/Pods-FNSwiftNetInterface.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FNSwiftNetInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BB184EE409956EB960FE8558E7B1738 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BA3CC31D652A9B28B9CC49D87303E0;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AdHoc;
+		};
+		A1E9E4304411AA91AA3AEDA44C012148 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730D6A49DE7DA91C5C37081E37DA24EC;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeiNiu_User/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeiNiu_User/Pods-FeiNiu_User.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FeiNiu_User;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AdHoc;
+		};
+		AE9439C22469D35336242DD983DB5C5F = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF36A4C1E15D9677B822703ADB413FCB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_AD_HOC=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		E0D4BAFC131E16CDA6D6197105934BB5 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F37B9F4721EF58E1D3CF9797111ADE;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeiNiu_Merchant/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeiNiu_Merchant/Pods-FeiNiu_Merchant.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FeiNiu_Merchant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E63333BD967010EE80DEAD92DFC4C988 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A66092DE54C7065E674D6944F00AEF;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FeiNiu_User/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeiNiu_User/Pods-FeiNiu_User.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FeiNiu_User;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72D19F57E49ECD06D0E2C37E5FAD3E9 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BA3CC31D652A9B28B9CC49D87303E0;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEAA2731463C8F64F4EAB67D982AD3BA = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACE95F98E1E271E55748ACE72792C2D;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FNPayment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FNPayment/Pods-FNPayment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FNPayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AdHoc;
+		};
+		FEF6D17F7676350FA208572F534EC0AF = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BA3CC31D652A9B28B9CC49D87303E0;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF36A4C1E15D9677B822703ADB413FCB,
+				AE9439C22469D35336242DD983DB5C5F,
+				42287DDF97330524BA3EF220F0276DA6,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629469A2EB7F3B357BEFE37A8FB5301D = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAA2731463C8F64F4EAB67D982AD3BA,
+				47BB58F4CCA3946B4C2F63FC541E3A20,
+				6351A830385E1D5E51D4899FF9C4922A,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E60F76348540CF28EF26BDFF67D9142 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BAD3B6C6955236225572E08296BF4F,
+				260FFC001F48BFA49B2FA1B1381D2C61,
+				639E489E1AA1CF2D6C9FA0E11E23D651,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEDD77266A1A789FB750BD7DAEFBD28 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB184EE409956EB960FE8558E7B1738,
+				FEF6D17F7676350FA208572F534EC0AF,
+				E72D19F57E49ECD06D0E2C37E5FAD3E9,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F9A7A7DD2D390361374BD2023267EB = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E9E4304411AA91AA3AEDA44C012148,
+				E63333BD967010EE80DEAD92DFC4C988,
+				4E43107837E1D57FCD47E089AED7BB39,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47FCA96FCB7D1EE6661E270031EA893 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED3311DC1BDA0BB7087E7A31B71399A,
+				55C9C94DF00C05C769C5FB8E97A3B9ED,
+				E0D4BAFC131E16CDA6D6197105934BB5,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E;
+}

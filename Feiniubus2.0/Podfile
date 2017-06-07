@@ -1,0 +1,52 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+workspace 'FeiNiuBus2.xcworkspace'
+
+target 'FeiNiu_User' do
+	
+  platform :ios, '10.0'
+  xcodeproj 'FeiNiu_User/FeiNiu_User.xcodeproj'
+  
+ 	#pod 'SnapKit', '~> 3.0.2'
+    #pod 'SDWebImage', '~> 4.0.0-beta2'
+ 	pod 'JPush-iOS-SDK', '~> 2.1.9'
+  
+    pod 'AMapFoundation-NO-IDFA', '~> 1.3.4'
+	pod 'AMapLocation-NO-IDFA', '~> 2.3.0'
+ 	pod 'AMap3DMap-NO-IDFA', '~> 4.5.0'
+	pod 'AMapSearch-NO-IDFA', '~> 4.4.1'
+
+
+	pod 'AliPay', '~> 2.1.2'
+    pod 'libWeChatSDK'
+    
+    #UMeng
+    pod 'UMengAnalytics-NO-IDFA', '~> 4.1.9'
+end
+
+target 'FeiNiu_Merchant' do
+    platform :ios, '10.0'
+    xcodeproj 'FeiNiu_Merchant/FeiNiu_Merchant.xcodeproj'
+
+    pod 'Alamofire', '~> 4.0.0'
+    #pod 'SnapKit', '~> 3.0.2'
+    #pod 'SDWebImage', '~> 4.0.0-beta2'
+end
+
+
+target 'FNSwiftNetInterface' do
+    platform :ios, '10.0'
+    xcodeproj 'FNSwiftNetInterface/FNSwiftNetInterface.xcodeproj'
+
+    pod 'Alamofire', '~> 4.0.0'
+end
+
+target 'FNPayment' do 
+    platform :ios, '10.0'
+    xcodeproj 'FNPayment/FNPayment.xcodeproj'
+	
+	
+	pod 'AliPay', '~> 2.1.2'
+    pod 'libWeChatSDK'
+end

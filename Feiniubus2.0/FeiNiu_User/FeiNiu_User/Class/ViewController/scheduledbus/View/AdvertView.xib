@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AdvertView" customModule="FeiNiu_User" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOa-vt-I2U">
+                    <rect key="frame" x="30" y="115" width="315" height="417"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="xOa-vt-I2U" secondAttribute="height" multiplier="650:860" id="GnU-59-nes"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="NDK-KW-hMo" appends="YES" id="OXh-g8-Jae"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="6k6-iX-Akh">
+                    <rect key="frame" x="168" y="532" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" red="0.67450980392156867" green="0.67450980392156867" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </pageControl>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_cha" translatesAutoresizingMaskIntoConstraints="NO" id="eu2-8O-Kaa">
+                    <rect key="frame" x="323" y="53" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="XPq-IY-5co"/>
+                        <constraint firstAttribute="width" constant="22" id="y4g-Mk-6tp"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqn-G1-ls1">
+                    <rect key="frame" x="318" y="48" width="32" height="32"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="6Ym-4U-Ay0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.42730180369127518" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xOa-vt-I2U" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EAw-DB-C8t"/>
+                <constraint firstAttribute="trailing" secondItem="xOa-vt-I2U" secondAttribute="trailing" constant="30" id="Ft6-rx-2Q2"/>
+                <constraint firstItem="6k6-iX-Akh" firstAttribute="top" secondItem="xOa-vt-I2U" secondAttribute="bottom" id="OGw-gM-Dcr"/>
+                <constraint firstItem="Wqn-G1-ls1" firstAttribute="leading" secondItem="eu2-8O-Kaa" secondAttribute="leading" constant="-5" id="QL6-em-tga"/>
+                <constraint firstItem="Wqn-G1-ls1" firstAttribute="top" secondItem="eu2-8O-Kaa" secondAttribute="top" constant="-5" id="Qcb-xq-uKF"/>
+                <constraint firstItem="Wqn-G1-ls1" firstAttribute="trailing" secondItem="eu2-8O-Kaa" secondAttribute="trailing" constant="5" id="RPb-15-hrW"/>
+                <constraint firstItem="xOa-vt-I2U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="V08-Ho-FA4"/>
+                <constraint firstItem="Wqn-G1-ls1" firstAttribute="bottom" secondItem="eu2-8O-Kaa" secondAttribute="bottom" constant="5" id="YAh-vT-rt5"/>
+                <constraint firstItem="xOa-vt-I2U" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-10" id="ctU-k3-3M0"/>
+                <constraint firstItem="eu2-8O-Kaa" firstAttribute="trailing" secondItem="xOa-vt-I2U" secondAttribute="trailing" id="hSJ-aJ-lSx"/>
+                <constraint firstItem="eu2-8O-Kaa" firstAttribute="bottom" secondItem="xOa-vt-I2U" secondAttribute="top" constant="-40" id="wCf-f0-FPO"/>
+                <constraint firstItem="6k6-iX-Akh" firstAttribute="centerX" secondItem="xOa-vt-I2U" secondAttribute="centerX" id="zWh-C3-O8i"/>
+            </constraints>
+            <connections>
+                <outlet property="pageControl" destination="6k6-iX-Akh" id="0vS-Of-fnU"/>
+                <outlet property="scrollView" destination="xOa-vt-I2U" id="V9j-lG-UAV"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="NDK-KW-hMo">
+            <connections>
+                <action selector="scrollViewClick:" destination="iN0-l3-epB" id="iqJ-4c-H95"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="icon_cha" width="27" height="27"/>
+    </resources>
+</document>

@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.h
+//  FeiNiu_User
+//
+//  Created by tianbo on 16/3/9.
+//  Copyright © 2016年 tianbo. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#import <FNCommon/Common.h>
+#import <fnCommon/FNCommon.h>
+#import "UserPreferences.h"
+#import <FNUIView/UIView+FSExtension.h>
+#import "IFConstanst.h"
+
+
+
+
+#define KWindow [[UIApplication sharedApplication] keyWindow]
+
+#define ScreenW             [[UIScreen mainScreen] bounds].size.width
+#define ScreenH             [[UIScreen mainScreen] bounds].size.height
+#define Font(size)          [UIFont systemFontOfSize:size]
+
+
+
+#endif /* PrefixHeader_h */

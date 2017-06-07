@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="TtV-mq-Z4a" customClass="LoadingViewController">
+            <view key="view" contentMode="scaleToFill" id="KPc-Pr-Jyr">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="hAT-D2-Vjt">
+                        <rect key="frame" x="107" y="231" width="106" height="106"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_background" id="ofc-3i-yK0">
+                                <rect key="frame" x="0.0" y="0.0" width="106" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_bus" id="ZSW-Nw-j5r">
+                                <rect key="frame" x="18" y="39" width="70" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_cloud" id="IQz-Yx-T04">
+                                <rect key="frame" x="107" y="18" width="24" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_wheel" id="lDg-Ki-aPi">
+                                <rect key="frame" x="26" y="61" width="13" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_wheel" id="2EN-bG-r0V">
+                                <rect key="frame" x="61" y="61" width="13" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="载入中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zos-kE-vD0">
+                                <rect key="frame" x="34" y="81" width="40" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <connections>
+                <outlet property="ivBus" destination="ZSW-Nw-j5r" id="icx-1d-P38"/>
+                <outlet property="ivCloud" destination="IQz-Yx-T04" id="tIJ-zS-0yV"/>
+                <outlet property="ivWheelLeft" destination="lDg-Ki-aPi" id="FeJ-gs-4Zm"/>
+                <outlet property="ivWheelRight" destination="2EN-bG-r0V" id="j5m-BQ-rY8"/>
+                <outlet property="viewContent" destination="hAT-D2-Vjt" id="ekB-Ho-7sD"/>
+            </connections>
+            <point key="canvasLocation" x="594" y="290"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="loading_background" width="106" height="106"/>
+        <image name="loading_bus" width="70" height="32"/>
+        <image name="loading_cloud" width="24" height="13"/>
+        <image name="loading_wheel" width="13" height="13"/>
+    </resources>
+</document>

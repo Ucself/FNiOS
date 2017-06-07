@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.h
+//  FeiNiu_User
+//
+//  Created by tianbo on 16/3/9.
+//  Copyright © 2016年 tianbo. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#import <FNCommon/Common.h>
+#import <FNCommon/FNCommon.h>
+#import "UserPreferences.h"
+#import "IFConstanst.h"
+//#import <FNUIView/UIView+FSExtension.h>
+
+
+
+
+#define KWindow [[UIApplication sharedApplication] keyWindow]
+
+#define ScreenW             [[UIScreen mainScreen] bounds].size.width
+#define ScreenH             [[UIScreen mainScreen] bounds].size.height
+#define Font(size)          [UIFont systemFontOfSize:size]
+
+ 
+//菜单通知
+#define KShowMenuNotification          @"ShowMenuNotification"
+#define KMenuDidSelectNotification     @"MenuDidSelectNotification"
+//登录成功通知
+#define KLoginSuccessNotification      @"LoginSuccessNotification"
+//退录登录通知
+#define  KLogoutNotification           @"LogoutNotification"
+//订单状态更新通知
+#define KOrderRefreshNotification      @"OrderRefreshNotification"
+
+//注册3DTouch 通点击知
+#define KNotification_shortcutItem          @"ShortcutItemKNotification"
+
+//显示活动广告
+#define KNotificationShowActivity         @"NotificationShowActivity"
+
+//切换城市后通知
+#define KChangeCityNotification         @"ChangeCityNotification"
+#define KPaySuccessNotification         @"PaySuccessNotification"
+
+#define WaitNotificationSecond  10.0
+
+#endif /* PrefixHeader_h */

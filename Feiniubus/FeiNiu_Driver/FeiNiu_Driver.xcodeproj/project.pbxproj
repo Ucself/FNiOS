@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0D613B1BC3BF0600C67BE0 /* GetTaskAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0D613A1BC3BF0600C67BE0 /* GetTaskAlertView.m */; };
+		AD1755601BC21CCD0010BBDA /* DriverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD17555E1BC21CCD0010BBDA /* DriverModel.m */; };
+		AD23BD501BCCB17600FE5A31 /* CHScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23BD4F1BCCB17600FE5A31 /* CHScanViewController.m */; };
+		AD23BD531BCCEABA00FE5A31 /* DriverLocationUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23BD521BCCEABA00FE5A31 /* DriverLocationUploadModel.m */; };
+		AD32E5CC1B68AE36007537DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32E5CB1B68AE36007537DF /* main.m */; };
+		AD32E5CF1B68AE36007537DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32E5CE1B68AE36007537DF /* AppDelegate.m */; };
+		AD32E5D21B68AE36007537DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32E5D11B68AE36007537DF /* ViewController.m */; };
+		AD32E5D51B68AE36007537DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD32E5D31B68AE36007537DF /* Main.storyboard */; };
+		AD32E5D71B68AE36007537DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD32E5D61B68AE36007537DF /* Images.xcassets */; };
+		AD32E5DA1B68AE36007537DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD32E5D81B68AE36007537DF /* LaunchScreen.xib */; };
+		AD3EA84E1BC4E72A00990DC7 /* DriverCarpoolingTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3EA84D1BC4E72A00990DC7 /* DriverCarpoolingTaskModel.m */; };
+		AD3EA8511BC610D000990DC7 /* DriverCarpoolOrdeMember.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3EA8501BC610D000990DC7 /* DriverCarpoolOrdeMember.m */; };
+		AD5779091BA7C152004536CB /* DrawerContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5779041BA7C152004536CB /* DrawerContainerViewController.m */; };
+		AD57790B1BA7C152004536CB /* LeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5779081BA7C152004536CB /* LeftDrawerViewController.m */; };
+		AD57790E1BA7C477004536CB /* DriverLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD57790D1BA7C477004536CB /* DriverLoginViewController.m */; };
+		AD5779111BA7C7AA004536CB /* DriverPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5779101BA7C7AA004536CB /* DriverPreferences.m */; };
+		AD5779141BA7CEEE004536CB /* DriverGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5779131BA7CEEE004536CB /* DriverGuideViewController.m */; };
+		AD5779181BA84323004536CB /* DriverTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5779171BA84323004536CB /* DriverTaskDetailViewController.m */; };
+		AD57791B1BA86085004536CB /* DriverPassengerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD57791A1BA86085004536CB /* DriverPassengerListViewController.m */; };
+		AD5779371BA87431004536CB /* DriverScanPassengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5779361BA87431004536CB /* DriverScanPassengerViewController.m */; };
+		AD5779391BA8772E004536CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5779381BA8772E004536CB /* AVFoundation.framework */; };
+		AD57793B1BA8773C004536CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD57793A1BA8773C004536CB /* CoreMedia.framework */; };
+		AD57793D1BA87750004536CB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD57793C1BA87750004536CB /* CoreVideo.framework */; };
+		AD670AB81BB28E03004E8CEC /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD670AB71BB28E03004E8CEC /* PushConfig.plist */; };
+		AD7127091BB8D9CD00442F10 /* DriverTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7127081BB8D9CD00442F10 /* DriverTaskModel.m */; };
+		AD71270C1BB8F36D00442F10 /* DriverPackTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD71270B1BB8F36D00442F10 /* DriverPackTaskDetailViewController.m */; };
+		AD71270E1BB90D5A00442F10 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD71270D1BB90D5A00442F10 /* MJRefresh.bundle */; };
+		AD7127111BB9157500442F10 /* TopDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7127101BB9157500442F10 /* TopDatePickerView.m */; };
+		AD9058931B7AF0D600E9D6C7 /* DriverRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9058921B7AF0D600E9D6C7 /* DriverRootViewController.m */; };
+		AD9058991B7AF36300E9D6C7 /* DriverContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9058981B7AF36300E9D6C7 /* DriverContainerViewController.m */; };
+		AD90589C1B7AFC4C00E9D6C7 /* DriverMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90589B1B7AFC4C00E9D6C7 /* DriverMainViewController.m */; };
+		AD90589F1B7AFE1E00E9D6C7 /* DriverMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90589E1B7AFE1E00E9D6C7 /* DriverMainMenuViewController.m */; };
+		AD9D8C991BC296FB001068A3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9D8C981BC296FB001068A3 /* libc++.tbd */; };
+		AD9D8C9B1BC29878001068A3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9D8C9A1BC29878001068A3 /* libz.tbd */; };
+		AD9D8C9D1BC29899001068A3 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9D8C9C1BC29899001068A3 /* libstdc++.6.0.9.tbd */; };
+		AD9D8CA01BC29DE2001068A3 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9D8C9E1BC29DE2001068A3 /* AMapSearchKit.framework */; };
+		AD9D8CA11BC29DE2001068A3 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9D8C9F1BC29DE2001068A3 /* MAMapKit.framework */; };
+		AD9D8CA31BC2A59A001068A3 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD9D8CA21BC2A59A001068A3 /* AMap.bundle */; };
+		ADA7612F1BB3F959004E9AED /* DriverBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA7612E1BB3F959004E9AED /* DriverBaseViewController.m */; };
+		ADAEEBB61BC9001F00348D82 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAEEBB51BC9001F00348D82 /* libiconv.tbd */; };
+		ADB9DE0C1BD6180E00DFAAC6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB9DE0B1BD6180E00DFAAC6 /* libsqlite3.0.tbd */; };
+		ADE46E0F1B79EDD50092F9F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E0E1B79EDD50092F9F7 /* Foundation.framework */; };
+		ADE46E111B79EDE50092F9F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E101B79EDE50092F9F7 /* UIKit.framework */; };
+		ADE46E131B79EDF20092F9F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E121B79EDF20092F9F7 /* CoreGraphics.framework */; };
+		ADE46E151B79EE090092F9F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E141B79EE090092F9F7 /* QuartzCore.framework */; };
+		ADE46E171B79EE120092F9F7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E161B79EE120092F9F7 /* OpenGLES.framework */; };
+		ADE46E191B79EE220092F9F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E181B79EE220092F9F7 /* CoreLocation.framework */; };
+		ADE46E1B1B79EE2F0092F9F7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E1A1B79EE2F0092F9F7 /* CoreTelephony.framework */; };
+		ADE46E1D1B79EE3D0092F9F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E1C1B79EE3D0092F9F7 /* SystemConfiguration.framework */; };
+		ADE46E231B79EE610092F9F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E221B79EE610092F9F7 /* Security.framework */; };
+		ADE46E411B79FFC00092F9F7 /* FNCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E3B1B79FFC00092F9F7 /* FNCommon.framework */; };
+		ADE46E421B79FFC00092F9F7 /* FNDataModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E3C1B79FFC00092F9F7 /* FNDataModule.framework */; };
+		ADE46E431B79FFC00092F9F7 /* FNDBManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E3D1B79FFC00092F9F7 /* FNDBManager.framework */; };
+		ADE46E451B79FFC00092F9F7 /* FNNetInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E3F1B79FFC00092F9F7 /* FNNetInterface.framework */; };
+		ADE46E461B79FFC00092F9F7 /* FNUIView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E401B79FFC00092F9F7 /* FNUIView.framework */; };
+		ADE46E491B79FFCE0092F9F7 /* FUDriverResultParse.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE46E481B79FFCE0092F9F7 /* FUDriverResultParse.m */; };
+		ADE46E521B79FFFE0092F9F7 /* JsonBuilderDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE46E511B79FFFE0092F9F7 /* JsonBuilderDriver.m */; };
+		ADE46E581B7A007D0092F9F7 /* ProtocolDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE46E571B7A007D0092F9F7 /* ProtocolDriver.m */; };
+		ADE46E601B7A04190092F9F7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE46E5F1B7A04190092F9F7 /* MobileCoreServices.framework */; };
+		ADFA3F571BF0876300E57BD4 /* DriverCombinationTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFA3F561BF0876300E57BD4 /* DriverCombinationTaskModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD0D61391BC3BF0600C67BE0 /* GetTaskAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTaskAlertView.h; sourceTree = "<group>"; };
+		AD0D613A1BC3BF0600C67BE0 /* GetTaskAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTaskAlertView.m; sourceTree = "<group>"; };
+		AD17555E1BC21CCD0010BBDA /* DriverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverModel.m; sourceTree = "<group>"; };
+		AD17555F1BC21CCD0010BBDA /* DriverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverModel.h; sourceTree = "<group>"; };
+		AD23BD4E1BCCB17600FE5A31 /* CHScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHScanViewController.h; sourceTree = "<group>"; };
+		AD23BD4F1BCCB17600FE5A31 /* CHScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHScanViewController.m; sourceTree = "<group>"; };
+		AD23BD511BCCEABA00FE5A31 /* DriverLocationUploadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverLocationUploadModel.h; sourceTree = "<group>"; };
+		AD23BD521BCCEABA00FE5A31 /* DriverLocationUploadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverLocationUploadModel.m; sourceTree = "<group>"; };
+		AD32E5C61B68AE36007537DF /* FeiNiu_Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiNiu_Driver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD32E5CA1B68AE36007537DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD32E5CB1B68AE36007537DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD32E5CD1B68AE36007537DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD32E5CE1B68AE36007537DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD32E5D01B68AE36007537DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD32E5D11B68AE36007537DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD32E5D41B68AE36007537DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD32E5D61B68AE36007537DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD32E5D91B68AE36007537DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AD3EA84C1BC4E72A00990DC7 /* DriverCarpoolingTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverCarpoolingTaskModel.h; sourceTree = "<group>"; };
+		AD3EA84D1BC4E72A00990DC7 /* DriverCarpoolingTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverCarpoolingTaskModel.m; sourceTree = "<group>"; };
+		AD3EA84F1BC610D000990DC7 /* DriverCarpoolOrdeMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverCarpoolOrdeMember.h; sourceTree = "<group>"; };
+		AD3EA8501BC610D000990DC7 /* DriverCarpoolOrdeMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverCarpoolOrdeMember.m; sourceTree = "<group>"; };
+		AD5779031BA7C152004536CB /* DrawerContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerContainerViewController.h; sourceTree = "<group>"; };
+		AD5779041BA7C152004536CB /* DrawerContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerContainerViewController.m; sourceTree = "<group>"; };
+		AD5779071BA7C152004536CB /* LeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDrawerViewController.h; sourceTree = "<group>"; };
+		AD5779081BA7C152004536CB /* LeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDrawerViewController.m; sourceTree = "<group>"; };
+		AD57790C1BA7C477004536CB /* DriverLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverLoginViewController.h; sourceTree = "<group>"; };
+		AD57790D1BA7C477004536CB /* DriverLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverLoginViewController.m; sourceTree = "<group>"; };
+		AD57790F1BA7C7AA004536CB /* DriverPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverPreferences.h; sourceTree = "<group>"; };
+		AD5779101BA7C7AA004536CB /* DriverPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverPreferences.m; sourceTree = "<group>"; };
+		AD5779121BA7CEEE004536CB /* DriverGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverGuideViewController.h; sourceTree = "<group>"; };
+		AD5779131BA7CEEE004536CB /* DriverGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverGuideViewController.m; sourceTree = "<group>"; };
+		AD5779161BA84323004536CB /* DriverTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverTaskDetailViewController.h; sourceTree = "<group>"; };
+		AD5779171BA84323004536CB /* DriverTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverTaskDetailViewController.m; sourceTree = "<group>"; };
+		AD5779191BA86085004536CB /* DriverPassengerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverPassengerListViewController.h; sourceTree = "<group>"; };
+		AD57791A1BA86085004536CB /* DriverPassengerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverPassengerListViewController.m; sourceTree = "<group>"; };
+		AD5779351BA87431004536CB /* DriverScanPassengerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverScanPassengerViewController.h; sourceTree = "<group>"; };
+		AD5779361BA87431004536CB /* DriverScanPassengerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverScanPassengerViewController.m; sourceTree = "<group>"; };
+		AD5779381BA8772E004536CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AD57793A1BA8773C004536CB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AD57793C1BA87750004536CB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AD670AB71BB28E03004E8CEC /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
+		AD7127071BB8D9CD00442F10 /* DriverTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverTaskModel.h; sourceTree = "<group>"; };
+		AD7127081BB8D9CD00442F10 /* DriverTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverTaskModel.m; sourceTree = "<group>"; };
+		AD71270A1BB8F36D00442F10 /* DriverPackTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverPackTaskDetailViewController.h; sourceTree = "<group>"; };
+		AD71270B1BB8F36D00442F10 /* DriverPackTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.c.objc; path = DriverPackTaskDetailViewController.m; sourceTree = "<group>"; };
+		AD71270D1BB90D5A00442F10 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		AD71270F1BB9157500442F10 /* TopDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDatePickerView.h; sourceTree = "<group>"; };
+		AD7127101BB9157500442F10 /* TopDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDatePickerView.m; sourceTree = "<group>"; };
+		AD9058911B7AF0D600E9D6C7 /* DriverRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverRootViewController.h; sourceTree = "<group>"; };
+		AD9058921B7AF0D600E9D6C7 /* DriverRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverRootViewController.m; sourceTree = "<group>"; };
+		AD9058971B7AF36300E9D6C7 /* DriverContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverContainerViewController.h; path = ../DriverContainerViewController.h; sourceTree = "<group>"; };
+		AD9058981B7AF36300E9D6C7 /* DriverContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverContainerViewController.m; path = ../DriverContainerViewController.m; sourceTree = "<group>"; };
+		AD90589A1B7AFC4C00E9D6C7 /* DriverMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverMainViewController.h; sourceTree = "<group>"; };
+		AD90589B1B7AFC4C00E9D6C7 /* DriverMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverMainViewController.m; sourceTree = "<group>"; };
+		AD90589D1B7AFE1E00E9D6C7 /* DriverMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriverMainMenuViewController.h; path = ../DriverMainMenuViewController.h; sourceTree = "<group>"; };
+		AD90589E1B7AFE1E00E9D6C7 /* DriverMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DriverMainMenuViewController.m; path = ../DriverMainMenuViewController.m; sourceTree = "<group>"; };
+		AD9D8C981BC296FB001068A3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AD9D8C9A1BC29878001068A3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AD9D8C9C1BC29899001068A3 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		AD9D8C9E1BC29DE2001068A3 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		AD9D8C9F1BC29DE2001068A3 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		AD9D8CA21BC2A59A001068A3 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		ADA7612D1BB3F959004E9AED /* DriverBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverBaseViewController.h; sourceTree = "<group>"; };
+		ADA7612E1BB3F959004E9AED /* DriverBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverBaseViewController.m; sourceTree = "<group>"; };
+		ADAEEBB51BC9001F00348D82 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		ADB9DE0B1BD6180E00DFAAC6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		ADE46E0E1B79EDD50092F9F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADE46E101B79EDE50092F9F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADE46E121B79EDF20092F9F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADE46E141B79EE090092F9F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADE46E161B79EE120092F9F7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ADE46E181B79EE220092F9F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ADE46E1A1B79EE2F0092F9F7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ADE46E1C1B79EE3D0092F9F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ADE46E221B79EE610092F9F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ADE46E3B1B79FFC00092F9F7 /* FNCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNCommon.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus-cazjmrmbvnmlrlewhrojeadllqnl/Build/Products/Debug-iphoneos/FNCommon.framework"; sourceTree = "<group>"; };
+		ADE46E3C1B79FFC00092F9F7 /* FNDataModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNDataModule.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus-cazjmrmbvnmlrlewhrojeadllqnl/Build/Products/Debug-iphoneos/FNDataModule.framework"; sourceTree = "<group>"; };
+		ADE46E3D1B79FFC00092F9F7 /* FNDBManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNDBManager.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus-cazjmrmbvnmlrlewhrojeadllqnl/Build/Products/Debug-iphoneos/FNDBManager.framework"; sourceTree = "<group>"; };
+		ADE46E3F1B79FFC00092F9F7 /* FNNetInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNNetInterface.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus-cazjmrmbvnmlrlewhrojeadllqnl/Build/Products/Debug-iphoneos/FNNetInterface.framework"; sourceTree = "<group>"; };
+		ADE46E401B79FFC00092F9F7 /* FNUIView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNUIView.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus-cazjmrmbvnmlrlewhrojeadllqnl/Build/Products/Debug-iphoneos/FNUIView.framework"; sourceTree = "<group>"; };
+		ADE46E471B79FFCE0092F9F7 /* FUDriverResultParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUDriverResultParse.h; sourceTree = "<group>"; };
+		ADE46E481B79FFCE0092F9F7 /* FUDriverResultParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUDriverResultParse.m; sourceTree = "<group>"; };
+		ADE46E501B79FFFE0092F9F7 /* JsonBuilderDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonBuilderDriver.h; sourceTree = "<group>"; };
+		ADE46E511B79FFFE0092F9F7 /* JsonBuilderDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonBuilderDriver.m; sourceTree = "<group>"; };
+		ADE46E561B7A007D0092F9F7 /* ProtocolDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolDriver.h; sourceTree = "<group>"; };
+		ADE46E571B7A007D0092F9F7 /* ProtocolDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolDriver.m; sourceTree = "<group>"; };
+		ADE46E5F1B7A04190092F9F7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ADFA3F551BF0876300E57BD4 /* DriverCombinationTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverCombinationTaskModel.h; sourceTree = "<group>"; };
+		ADFA3F561BF0876300E57BD4 /* DriverCombinationTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverCombinationTaskModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD32E5C31B68AE36007537DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB9DE0C1BD6180E00DFAAC6 /* libsqlite3.0.tbd in Frameworks */,
+				AD5779391BA8772E004536CB /* AVFoundation.framework in Frameworks */,
+				ADAEEBB61BC9001F00348D82 /* libiconv.tbd in Frameworks */,
+				AD9D8C9D1BC29899001068A3 /* libstdc++.6.0.9.tbd in Frameworks */,
+				AD9D8C9B1BC29878001068A3 /* libz.tbd in Frameworks */,
+				AD9D8C991BC296FB001068A3 /* libc++.tbd in Frameworks */,
+				AD57793D1BA87750004536CB /* CoreVideo.framework in Frameworks */,
+				AD57793B1BA8773C004536CB /* CoreMedia.framework in Frameworks */,
+				ADE46E601B7A04190092F9F7 /* MobileCoreServices.framework in Frameworks */,
+				ADE46E411B79FFC00092F9F7 /* FNCommon.framework in Frameworks */,
+				ADE46E421B79FFC00092F9F7 /* FNDataModule.framework in Frameworks */,
+				ADE46E431B79FFC00092F9F7 /* FNDBManager.framework in Frameworks */,
+				AD9D8CA11BC29DE2001068A3 /* MAMapKit.framework in Frameworks */,
+				ADE46E451B79FFC00092F9F7 /* FNNetInterface.framework in Frameworks */,
+				ADE46E461B79FFC00092F9F7 /* FNUIView.framework in Frameworks */,
+				ADE46E231B79EE610092F9F7 /* Security.framework in Frameworks */,
+				ADE46E1D1B79EE3D0092F9F7 /* SystemConfiguration.framework in Frameworks */,
+				ADE46E1B1B79EE2F0092F9F7 /* CoreTelephony.framework in Frameworks */,
+				ADE46E191B79EE220092F9F7 /* CoreLocation.framework in Frameworks */,
+				AD9D8CA01BC29DE2001068A3 /* AMapSearchKit.framework in Frameworks */,
+				ADE46E171B79EE120092F9F7 /* OpenGLES.framework in Frameworks */,
+				ADE46E151B79EE090092F9F7 /* QuartzCore.framework in Frameworks */,
+				ADE46E131B79EDF20092F9F7 /* CoreGraphics.framework in Frameworks */,
+				ADE46E111B79EDE50092F9F7 /* UIKit.framework in Frameworks */,
+				ADE46E0F1B79EDD50092F9F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD32E5BD1B68AE36007537DF = {
+			isa = PBXGroup;
+			children = (
+				AD32E5C81B68AE36007537DF /* FeiNiu_Driver */,
+				ADE46E051B79E5F10092F9F7 /* Frameworks */,
+				AD32E5C71B68AE36007537DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD32E5C71B68AE36007537DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD32E5C61B68AE36007537DF /* FeiNiu_Driver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD32E5C81B68AE36007537DF /* FeiNiu_Driver */ = {
+			isa = PBXGroup;
+			children = (
+				ADE46DF51B79E4870092F9F7 /* Data */,
+				ADE46E2D1B79F7470092F9F7 /* Protocol */,
+				AD57791C1BA87278004536CB /* UIVIew */,
+				ADE46E2E1B79F7820092F9F7 /* ViewController */,
+				ADE46E2C1B79F7020092F9F7 /* Storyboard */,
+				AD32E5CD1B68AE36007537DF /* AppDelegate.h */,
+				AD32E5CE1B68AE36007537DF /* AppDelegate.m */,
+				AD32E5D01B68AE36007537DF /* ViewController.h */,
+				AD32E5D11B68AE36007537DF /* ViewController.m */,
+				AD32E5D61B68AE36007537DF /* Images.xcassets */,
+				AD32E5C91B68AE36007537DF /* Supporting Files */,
+			);
+			path = FeiNiu_Driver;
+			sourceTree = "<group>";
+		};
+		AD32E5C91B68AE36007537DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD670AB71BB28E03004E8CEC /* PushConfig.plist */,
+				AD32E5CA1B68AE36007537DF /* Info.plist */,
+				AD32E5CB1B68AE36007537DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD5779021BA7C152004536CB /* leftSlide */ = {
+			isa = PBXGroup;
+			children = (
+				AD5779031BA7C152004536CB /* DrawerContainerViewController.h */,
+				AD5779041BA7C152004536CB /* DrawerContainerViewController.m */,
+				AD5779071BA7C152004536CB /* LeftDrawerViewController.h */,
+				AD5779081BA7C152004536CB /* LeftDrawerViewController.m */,
+			);
+			path = leftSlide;
+			sourceTree = "<group>";
+		};
+		AD5779151BA7F1E5004536CB /* deprecatedLeftSlide */ = {
+			isa = PBXGroup;
+			children = (
+				AD9058971B7AF36300E9D6C7 /* DriverContainerViewController.h */,
+				AD9058981B7AF36300E9D6C7 /* DriverContainerViewController.m */,
+				AD90589D1B7AFE1E00E9D6C7 /* DriverMainMenuViewController.h */,
+				AD90589E1B7AFE1E00E9D6C7 /* DriverMainMenuViewController.m */,
+			);
+			path = deprecatedLeftSlide;
+			sourceTree = "<group>";
+		};
+		AD57791C1BA87278004536CB /* UIVIew */ = {
+			isa = PBXGroup;
+			children = (
+				AD71270F1BB9157500442F10 /* TopDatePickerView.h */,
+				AD7127101BB9157500442F10 /* TopDatePickerView.m */,
+				AD0D61391BC3BF0600C67BE0 /* GetTaskAlertView.h */,
+				AD0D613A1BC3BF0600C67BE0 /* GetTaskAlertView.m */,
+			);
+			path = UIVIew;
+			sourceTree = "<group>";
+		};
+		AD9058901B7AF05A00E9D6C7 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				ADA7612D1BB3F959004E9AED /* DriverBaseViewController.h */,
+				ADA7612E1BB3F959004E9AED /* DriverBaseViewController.m */,
+				AD5779151BA7F1E5004536CB /* deprecatedLeftSlide */,
+				AD5779021BA7C152004536CB /* leftSlide */,
+				AD9058911B7AF0D600E9D6C7 /* DriverRootViewController.h */,
+				AD9058921B7AF0D600E9D6C7 /* DriverRootViewController.m */,
+				AD5779121BA7CEEE004536CB /* DriverGuideViewController.h */,
+				AD5779131BA7CEEE004536CB /* DriverGuideViewController.m */,
+				AD57790C1BA7C477004536CB /* DriverLoginViewController.h */,
+				AD57790D1BA7C477004536CB /* DriverLoginViewController.m */,
+				AD90589A1B7AFC4C00E9D6C7 /* DriverMainViewController.h */,
+				AD90589B1B7AFC4C00E9D6C7 /* DriverMainViewController.m */,
+				AD5779161BA84323004536CB /* DriverTaskDetailViewController.h */,
+				AD5779171BA84323004536CB /* DriverTaskDetailViewController.m */,
+				AD71270A1BB8F36D00442F10 /* DriverPackTaskDetailViewController.h */,
+				AD71270B1BB8F36D00442F10 /* DriverPackTaskDetailViewController.m */,
+				AD5779191BA86085004536CB /* DriverPassengerListViewController.h */,
+				AD57791A1BA86085004536CB /* DriverPassengerListViewController.m */,
+				AD5779351BA87431004536CB /* DriverScanPassengerViewController.h */,
+				AD5779361BA87431004536CB /* DriverScanPassengerViewController.m */,
+				AD23BD4E1BCCB17600FE5A31 /* CHScanViewController.h */,
+				AD23BD4F1BCCB17600FE5A31 /* CHScanViewController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		ADE46DF51B79E4870092F9F7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ADE46E471B79FFCE0092F9F7 /* FUDriverResultParse.h */,
+				ADE46E481B79FFCE0092F9F7 /* FUDriverResultParse.m */,
+				AD57790F1BA7C7AA004536CB /* DriverPreferences.h */,
+				AD5779101BA7C7AA004536CB /* DriverPreferences.m */,
+				AD7127071BB8D9CD00442F10 /* DriverTaskModel.h */,
+				AD7127081BB8D9CD00442F10 /* DriverTaskModel.m */,
+				AD3EA84C1BC4E72A00990DC7 /* DriverCarpoolingTaskModel.h */,
+				AD3EA84D1BC4E72A00990DC7 /* DriverCarpoolingTaskModel.m */,
+				ADFA3F551BF0876300E57BD4 /* DriverCombinationTaskModel.h */,
+				ADFA3F561BF0876300E57BD4 /* DriverCombinationTaskModel.m */,
+				AD17555F1BC21CCD0010BBDA /* DriverModel.h */,
+				AD17555E1BC21CCD0010BBDA /* DriverModel.m */,
+				AD3EA84F1BC610D000990DC7 /* DriverCarpoolOrdeMember.h */,
+				AD3EA8501BC610D000990DC7 /* DriverCarpoolOrdeMember.m */,
+				AD23BD511BCCEABA00FE5A31 /* DriverLocationUploadModel.h */,
+				AD23BD521BCCEABA00FE5A31 /* DriverLocationUploadModel.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ADE46E051B79E5F10092F9F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB9DE0B1BD6180E00DFAAC6 /* libsqlite3.0.tbd */,
+				ADAEEBB51BC9001F00348D82 /* libiconv.tbd */,
+				AD9D8C9C1BC29899001068A3 /* libstdc++.6.0.9.tbd */,
+				AD9D8C9A1BC29878001068A3 /* libz.tbd */,
+				AD9D8C981BC296FB001068A3 /* libc++.tbd */,
+				AD9D8CA21BC2A59A001068A3 /* AMap.bundle */,
+				AD9D8C9E1BC29DE2001068A3 /* AMapSearchKit.framework */,
+				AD9D8C9F1BC29DE2001068A3 /* MAMapKit.framework */,
+				AD71270D1BB90D5A00442F10 /* MJRefresh.bundle */,
+				AD57793C1BA87750004536CB /* CoreVideo.framework */,
+				AD57793A1BA8773C004536CB /* CoreMedia.framework */,
+				AD5779381BA8772E004536CB /* AVFoundation.framework */,
+				ADE46E5F1B7A04190092F9F7 /* MobileCoreServices.framework */,
+				ADE46E3B1B79FFC00092F9F7 /* FNCommon.framework */,
+				ADE46E3C1B79FFC00092F9F7 /* FNDataModule.framework */,
+				ADE46E3D1B79FFC00092F9F7 /* FNDBManager.framework */,
+				ADE46E3F1B79FFC00092F9F7 /* FNNetInterface.framework */,
+				ADE46E401B79FFC00092F9F7 /* FNUIView.framework */,
+				ADE46E221B79EE610092F9F7 /* Security.framework */,
+				ADE46E1C1B79EE3D0092F9F7 /* SystemConfiguration.framework */,
+				ADE46E1A1B79EE2F0092F9F7 /* CoreTelephony.framework */,
+				ADE46E181B79EE220092F9F7 /* CoreLocation.framework */,
+				ADE46E161B79EE120092F9F7 /* OpenGLES.framework */,
+				ADE46E141B79EE090092F9F7 /* QuartzCore.framework */,
+				ADE46E121B79EDF20092F9F7 /* CoreGraphics.framework */,
+				ADE46E101B79EDE50092F9F7 /* UIKit.framework */,
+				ADE46E0E1B79EDD50092F9F7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADE46E2C1B79F7020092F9F7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD32E5D31B68AE36007537DF /* Main.storyboard */,
+				AD32E5D81B68AE36007537DF /* LaunchScreen.xib */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		ADE46E2D1B79F7470092F9F7 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				ADE46E561B7A007D0092F9F7 /* ProtocolDriver.h */,
+				ADE46E571B7A007D0092F9F7 /* ProtocolDriver.m */,
+				ADE46E501B79FFFE0092F9F7 /* JsonBuilderDriver.h */,
+				ADE46E511B79FFFE0092F9F7 /* JsonBuilderDriver.m */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		ADE46E2E1B79F7820092F9F7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD9058901B7AF05A00E9D6C7 /* main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD32E5C51B68AE36007537DF /* FeiNiu_Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD32E5E91B68AE36007537DF /* Build configuration list for PBXNativeTarget "FeiNiu_Driver" */;
+			buildPhases = (
+				AD32E5C21B68AE36007537DF /* Sources */,
+				AD32E5C31B68AE36007537DF /* Frameworks */,
+				AD32E5C41B68AE36007537DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeiNiu_Driver;
+			productName = FeiNiu_Driver;
+			productReference = AD32E5C61B68AE36007537DF /* FeiNiu_Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD32E5BE1B68AE36007537DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Driver;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = feiniubus.com;
+				TargetAttributes = {
+					AD32E5C51B68AE36007537DF = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = TB4QX9ESE4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AD32E5C11B68AE36007537DF /* Build configuration list for PBXProject "FeiNiu_Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD32E5BD1B68AE36007537DF;
+			productRefGroup = AD32E5C71B68AE36007537DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD32E5C51B68AE36007537DF /* FeiNiu_Driver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD32E5C41B68AE36007537DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9D8CA31BC2A59A001068A3 /* AMap.bundle in Resources */,
+				AD32E5D51B68AE36007537DF /* Main.storyboard in Resources */,
+				AD32E5DA1B68AE36007537DF /* LaunchScreen.xib in Resources */,
+				AD71270E1BB90D5A00442F10 /* MJRefresh.bundle in Resources */,
+				AD32E5D71B68AE36007537DF /* Images.xcassets in Resources */,
+				AD670AB81BB28E03004E8CEC /* PushConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD32E5C21B68AE36007537DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5779371BA87431004536CB /* DriverScanPassengerViewController.m in Sources */,
+				ADFA3F571BF0876300E57BD4 /* DriverCombinationTaskModel.m in Sources */,
+				AD23BD531BCCEABA00FE5A31 /* DriverLocationUploadModel.m in Sources */,
+				AD57790B1BA7C152004536CB /* LeftDrawerViewController.m in Sources */,
+				AD9058991B7AF36300E9D6C7 /* DriverContainerViewController.m in Sources */,
+				AD90589C1B7AFC4C00E9D6C7 /* DriverMainViewController.m in Sources */,
+				AD3EA8511BC610D000990DC7 /* DriverCarpoolOrdeMember.m in Sources */,
+				AD1755601BC21CCD0010BBDA /* DriverModel.m in Sources */,
+				AD23BD501BCCB17600FE5A31 /* CHScanViewController.m in Sources */,
+				AD7127091BB8D9CD00442F10 /* DriverTaskModel.m in Sources */,
+				AD5779111BA7C7AA004536CB /* DriverPreferences.m in Sources */,
+				ADE46E521B79FFFE0092F9F7 /* JsonBuilderDriver.m in Sources */,
+				ADE46E581B7A007D0092F9F7 /* ProtocolDriver.m in Sources */,
+				AD5779141BA7CEEE004536CB /* DriverGuideViewController.m in Sources */,
+				ADA7612F1BB3F959004E9AED /* DriverBaseViewController.m in Sources */,
+				AD32E5D21B68AE36007537DF /* ViewController.m in Sources */,
+				AD5779181BA84323004536CB /* DriverTaskDetailViewController.m in Sources */,
+				AD5779091BA7C152004536CB /* DrawerContainerViewController.m in Sources */,
+				ADE46E491B79FFCE0092F9F7 /* FUDriverResultParse.m in Sources */,
+				AD7127111BB9157500442F10 /* TopDatePickerView.m in Sources */,
+				AD32E5CF1B68AE36007537DF /* AppDelegate.m in Sources */,
+				AD32E5CC1B68AE36007537DF /* main.m in Sources */,
+				AD3EA84E1BC4E72A00990DC7 /* DriverCarpoolingTaskModel.m in Sources */,
+				AD0D613B1BC3BF0600C67BE0 /* GetTaskAlertView.m in Sources */,
+				AD90589F1B7AFE1E00E9D6C7 /* DriverMainMenuViewController.m in Sources */,
+				AD9058931B7AF0D600E9D6C7 /* DriverRootViewController.m in Sources */,
+				AD57791B1BA86085004536CB /* DriverPassengerListViewController.m in Sources */,
+				AD57790E1BA7C477004536CB /* DriverLoginViewController.m in Sources */,
+				AD71270C1BB8F36D00442F10 /* DriverPackTaskDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD32E5D31B68AE36007537DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD32E5D41B68AE36007537DF /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AD32E5D81B68AE36007537DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD32E5D91B68AE36007537DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD32E5E71B68AE36007537DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD32E5E81B68AE36007537DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD32E5EA1B68AE36007537DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bo Tian (8Y3FVZ6GRL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bo Tian (8Y3FVZ6GRL)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/FeiNiuBus-cazjmrmbvnmlrlewhrojeadllqnl/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FeiNiu_Driver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeiNiu_Driver/UIVIew/ReadQrCodeZBarSDK",
+					"$(PROJECT_DIR)/FeiNiu_Driver/UIVIew/ZBarSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4d72648a-4ccd-4aca-97e0-f0851f116194";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		AD32E5EB1B68AE36007537DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bo Tian (8Y3FVZ6GRL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bo Tian (8Y3FVZ6GRL)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/FeiNiuBus-cazjmrmbvnmlrlewhrojeadllqnl/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FeiNiu_Driver/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeiNiu_Driver/UIVIew/ReadQrCodeZBarSDK",
+					"$(PROJECT_DIR)/FeiNiu_Driver/UIVIew/ZBarSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4d72648a-4ccd-4aca-97e0-f0851f116194";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD32E5C11B68AE36007537DF /* Build configuration list for PBXProject "FeiNiu_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD32E5E71B68AE36007537DF /* Debug */,
+				AD32E5E81B68AE36007537DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD32E5E91B68AE36007537DF /* Build configuration list for PBXNativeTarget "FeiNiu_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD32E5EA1B68AE36007537DF /* Debug */,
+				AD32E5EB1B68AE36007537DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD32E5BE1B68AE36007537DF /* Project object */;
+}

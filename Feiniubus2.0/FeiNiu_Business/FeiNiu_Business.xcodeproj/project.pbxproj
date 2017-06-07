@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98035B281D2E02390070887F /* ManyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98035B261D2E02390070887F /* ManyOrderTableViewCell.xib */; };
+		98244FCE1D2A1A3A0091F342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98244FCD1D2A1A3A0091F342 /* main.m */; };
+		98244FD91D2A1A3A0091F342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98244FD81D2A1A3A0091F342 /* Assets.xcassets */; };
+		98244FE81D2A29E80091F342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98244FE61D2A29E80091F342 /* LaunchScreen.storyboard */; };
+		98244FFC1D2A2CE40091F342 /* FNCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98244FF71D2A2CE40091F342 /* FNCommon.framework */; };
+		98244FFD1D2A2CE40091F342 /* FNDataModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98244FF81D2A2CE40091F342 /* FNDataModule.framework */; };
+		98244FFE1D2A2CE40091F342 /* FNDBManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98244FF91D2A2CE40091F342 /* FNDBManager.framework */; };
+		982450001D2A2CE40091F342 /* FNUIView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98244FFB1D2A2CE40091F342 /* FNUIView.framework */; };
+		982450021D2A2D0C0091F342 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 982450011D2A2D0C0091F342 /* libz.1.1.3.tbd */; };
+		982450041D2A2D120091F342 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 982450031D2A2D120091F342 /* libc++.tbd */; };
+		982450061D2A2D330091F342 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982450051D2A2D330091F342 /* QuartzCore.framework */; };
+		982450081D2A2D3D0091F342 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982450071D2A2D3D0091F342 /* SystemConfiguration.framework */; };
+		982450101D2A2E670091F342 /* CachedataPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824500B1D2A2E670091F342 /* CachedataPreferences.m */; };
+		982450111D2A2E670091F342 /* ComTempCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824500D1D2A2E670091F342 /* ComTempCache.m */; };
+		982450121D2A2E670091F342 /* UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824500F1D2A2E670091F342 /* UserPreferences.m */; };
+		982450191D2A31DC0091F342 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 982450181D2A31DC0091F342 /* libsqlite3.tbd */; };
+		9824501B1D2A31E60091F342 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824501A1D2A31E60091F342 /* Security.framework */; };
+		9824501D1D2A31F70091F342 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824501C1D2A31F70091F342 /* libstdc++.6.0.9.tbd */; };
+		9824501F1D2A32820091F342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9824501E1D2A32820091F342 /* Main.storyboard */; };
+		982450211D2A367F0091F342 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982450201D2A367F0091F342 /* Order.storyboard */; };
+		982450231D2A368F0091F342 /* Booking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982450221D2A368F0091F342 /* Booking.storyboard */; };
+		9824502E1D2A38460091F342 /* BookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824502D1D2A38460091F342 /* BookingViewController.m */; };
+		982450301D2A38EB0091F342 /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9824502F1D2A38EB0091F342 /* Manager.storyboard */; };
+		982450961D2A3AB80091F342 /* UINavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 982450751D2A3AB80091F342 /* UINavigationView.m */; };
+		98310F121D8100A100417CED /* BasicConstanst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98310F111D8100A100417CED /* BasicConstanst.swift */; };
+		98310F151D8108BB00417CED /* IFConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98310F141D8108BB00417CED /* IFConstants.swift */; };
+		98310F1A1D81149700417CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98310F191D81149700417CED /* AppDelegate.m */; };
+		983B3B5E1D7FF008000D3FE9 /* BNSUserBaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3B5D1D7FF008000D3FE9 /* BNSUserBaseUIViewController.swift */; };
+		983B3B621D7FF01D000D3FE9 /* BNSAccountMgrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3B5F1D7FF01D000D3FE9 /* BNSAccountMgrViewController.swift */; };
+		983B3B631D7FF01D000D3FE9 /* BNSForgetPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3B601D7FF01D000D3FE9 /* BNSForgetPwdViewController.swift */; };
+		983B3B641D7FF01D000D3FE9 /* BNSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3B611D7FF01D000D3FE9 /* BNSRegisterViewController.swift */; };
+		983B3B671D7FF63D000D3FE9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3B661D7FF63D000D3FE9 /* User.swift */; };
+		983B3B691D7FF71B000D3FE9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3B681D7FF71B000D3FE9 /* Order.swift */; };
+		98483D651D2BE7CF0052E33E /* OrderCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98483D5C1D2BE7CF0052E33E /* OrderCenterTableViewCell.xib */; };
+		98D168FC1D7E8E0700C4DC5D /* BNSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D168FB1D7E8E0700C4DC5D /* BNSLoginViewController.swift */; };
+		98F799B41D2B8BAF00F3181A /* AuthorizeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F799B31D2B8BAF00F3181A /* AuthorizeCache.m */; };
+		98F799C11D2BADB800F3181A /* LoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F799C01D2BADB800F3181A /* LoginInputView.m */; };
+		AD5C05B21D7E928A006A554A /* BNSOrderCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05B11D7E928A006A554A /* BNSOrderCenterViewController.swift */; };
+		AD5C05B41D7E98DC006A554A /* BNSOrderCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05B31D7E98DC006A554A /* BNSOrderCenterTableViewCell.swift */; };
+		AD5C05B61D7E9D1F006A554A /* BNSSeachOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05B51D7E9D1F006A554A /* BNSSeachOrderViewController.swift */; };
+		AD5C05BE1D7EAE3C006A554A /* BNSManyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05BD1D7EAE3C006A554A /* BNSManyOrderViewController.swift */; };
+		AD5C05C01D7EB064006A554A /* BNSManyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05BF1D7EB064006A554A /* BNSManyOrderTableViewCell.swift */; };
+		AD5C05C21D7EB4A3006A554A /* BNSDetailOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05C11D7EB4A3006A554A /* BNSDetailOrderViewController.swift */; };
+		AD5C05C41D7EBBB8006A554A /* BNSPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05C31D7EBBB8006A554A /* BNSPaymentViewController.swift */; };
+		AD5C05C61D7FBCA3006A554A /* BNSGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05C51D7FBCA3006A554A /* BNSGuideViewController.swift */; };
+		AD5C05C81D7FC2C0006A554A /* BNSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05C71D7FC2C0006A554A /* BNSMainViewController.swift */; };
+		AD5C05CA1D7FEC26006A554A /* BNSRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5C05C91D7FEC26006A554A /* BNSRootViewController.swift */; };
+		AD5C06211D8136AF006A554A /* FNSwiftNetInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C06201D8136AF006A554A /* FNSwiftNetInterface.framework */; };
+		AD5C06221D8136AF006A554A /* FNSwiftNetInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD5C06201D8136AF006A554A /* FNSwiftNetInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD5C06231D8136AF006A554A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD5C06221D8136AF006A554A /* FNSwiftNetInterface.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		98035B261D2E02390070887F /* ManyOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManyOrderTableViewCell.xib; sourceTree = "<group>"; };
+		98244FC91D2A1A390091F342 /* FeiNiu_Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiNiu_Business.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98244FCD1D2A1A3A0091F342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98244FD81D2A1A3A0091F342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98244FDD1D2A1A3A0091F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98244FE61D2A29E80091F342 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98244FF71D2A2CE40091F342 /* FNCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNCommon.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus2-ahnwrefyoanvqsecdrkuneojuqeh/Build/Products/Debug-iphonesimulator/FNCommon.framework"; sourceTree = "<group>"; };
+		98244FF81D2A2CE40091F342 /* FNDataModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNDataModule.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus2-ahnwrefyoanvqsecdrkuneojuqeh/Build/Products/Debug-iphonesimulator/FNDataModule.framework"; sourceTree = "<group>"; };
+		98244FF91D2A2CE40091F342 /* FNDBManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNDBManager.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus2-ahnwrefyoanvqsecdrkuneojuqeh/Build/Products/Debug-iphonesimulator/FNDBManager.framework"; sourceTree = "<group>"; };
+		98244FFB1D2A2CE40091F342 /* FNUIView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FNUIView.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/FeiNiuBus2-ahnwrefyoanvqsecdrkuneojuqeh/Build/Products/Debug-iphonesimulator/FNUIView.framework"; sourceTree = "<group>"; };
+		982450011D2A2D0C0091F342 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		982450031D2A2D120091F342 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		982450051D2A2D330091F342 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		982450071D2A2D3D0091F342 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9824500A1D2A2E670091F342 /* CachedataPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedataPreferences.h; sourceTree = "<group>"; };
+		9824500B1D2A2E670091F342 /* CachedataPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedataPreferences.m; sourceTree = "<group>"; };
+		9824500C1D2A2E670091F342 /* ComTempCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComTempCache.h; sourceTree = "<group>"; };
+		9824500D1D2A2E670091F342 /* ComTempCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComTempCache.m; sourceTree = "<group>"; };
+		9824500E1D2A2E670091F342 /* UserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferences.h; sourceTree = "<group>"; };
+		9824500F1D2A2E670091F342 /* UserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferences.m; sourceTree = "<group>"; };
+		982450171D2A30FF0091F342 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		982450181D2A31DC0091F342 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9824501A1D2A31E60091F342 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9824501C1D2A31F70091F342 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9824501E1D2A32820091F342 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		982450201D2A367F0091F342 /* Order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
+		982450221D2A368F0091F342 /* Booking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Booking.storyboard; sourceTree = "<group>"; };
+		9824502C1D2A38460091F342 /* BookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingViewController.h; sourceTree = "<group>"; };
+		9824502D1D2A38460091F342 /* BookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingViewController.m; sourceTree = "<group>"; };
+		9824502F1D2A38EB0091F342 /* Manager.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
+		982450741D2A3AB80091F342 /* UINavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationView.h; sourceTree = "<group>"; };
+		982450751D2A3AB80091F342 /* UINavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationView.m; sourceTree = "<group>"; };
+		98310F111D8100A100417CED /* BasicConstanst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicConstanst.swift; sourceTree = "<group>"; };
+		98310F141D8108BB00417CED /* IFConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFConstants.swift; sourceTree = "<group>"; };
+		98310F181D81149700417CED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FeiNiu_Business/AppDelegate.h; sourceTree = "<group>"; };
+		98310F191D81149700417CED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FeiNiu_Business/AppDelegate.m; sourceTree = "<group>"; };
+		983B3B5D1D7FF008000D3FE9 /* BNSUserBaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSUserBaseUIViewController.swift; sourceTree = "<group>"; };
+		983B3B5F1D7FF01D000D3FE9 /* BNSAccountMgrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNSAccountMgrViewController.swift; path = FeiNiu_Business/Class/ViewController/Manager/BNSAccountMgrViewController.swift; sourceTree = SOURCE_ROOT; };
+		983B3B601D7FF01D000D3FE9 /* BNSForgetPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNSForgetPwdViewController.swift; path = FeiNiu_Business/Class/ViewController/Manager/BNSForgetPwdViewController.swift; sourceTree = SOURCE_ROOT; };
+		983B3B611D7FF01D000D3FE9 /* BNSRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BNSRegisterViewController.swift; path = FeiNiu_Business/Class/ViewController/Manager/BNSRegisterViewController.swift; sourceTree = SOURCE_ROOT; };
+		983B3B661D7FF63D000D3FE9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		983B3B681D7FF71B000D3FE9 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		98483D5C1D2BE7CF0052E33E /* OrderCenterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderCenterTableViewCell.xib; sourceTree = "<group>"; };
+		9855F12E1D7D6BC400EA514F /* FeiNiu_Business-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeiNiu_Business-Bridging-Header.h"; sourceTree = "<group>"; };
+		98D168FB1D7E8E0700C4DC5D /* BNSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSLoginViewController.swift; sourceTree = "<group>"; };
+		98F799B11D2B7A3D00F3181A /* IFConstanst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFConstanst.h; sourceTree = "<group>"; };
+		98F799B21D2B8BAF00F3181A /* AuthorizeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizeCache.h; sourceTree = "<group>"; };
+		98F799B31D2B8BAF00F3181A /* AuthorizeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeCache.m; sourceTree = "<group>"; };
+		98F799BF1D2BADB800F3181A /* LoginInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginInputView.h; sourceTree = "<group>"; };
+		98F799C01D2BADB800F3181A /* LoginInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginInputView.m; sourceTree = "<group>"; };
+		AD5C05B11D7E928A006A554A /* BNSOrderCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSOrderCenterViewController.swift; sourceTree = "<group>"; };
+		AD5C05B31D7E98DC006A554A /* BNSOrderCenterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSOrderCenterTableViewCell.swift; sourceTree = "<group>"; };
+		AD5C05B51D7E9D1F006A554A /* BNSSeachOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSSeachOrderViewController.swift; sourceTree = "<group>"; };
+		AD5C05BD1D7EAE3C006A554A /* BNSManyOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSManyOrderViewController.swift; sourceTree = "<group>"; };
+		AD5C05BF1D7EB064006A554A /* BNSManyOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSManyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		AD5C05C11D7EB4A3006A554A /* BNSDetailOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSDetailOrderViewController.swift; sourceTree = "<group>"; };
+		AD5C05C31D7EBBB8006A554A /* BNSPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSPaymentViewController.swift; sourceTree = "<group>"; };
+		AD5C05C51D7FBCA3006A554A /* BNSGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSGuideViewController.swift; sourceTree = "<group>"; };
+		AD5C05C71D7FC2C0006A554A /* BNSMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSMainViewController.swift; sourceTree = "<group>"; };
+		AD5C05C91D7FEC26006A554A /* BNSRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BNSRootViewController.swift; sourceTree = "<group>"; };
+		AD5C06201D8136AF006A554A /* FNSwiftNetInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = FNSwiftNetInterface.framework; path = "/Users/yidafeiniu/Library/Developer/Xcode/DerivedData/FeiNiuBus2-fncvytxhoujccjeqylcbqsumtbxi/Build/Products/Debug-iphonesimulator/FNSwiftNetInterface.framework"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98244FC61D2A1A390091F342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824501D1D2A31F70091F342 /* libstdc++.6.0.9.tbd in Frameworks */,
+				9824501B1D2A31E60091F342 /* Security.framework in Frameworks */,
+				982450191D2A31DC0091F342 /* libsqlite3.tbd in Frameworks */,
+				982450081D2A2D3D0091F342 /* SystemConfiguration.framework in Frameworks */,
+				982450061D2A2D330091F342 /* QuartzCore.framework in Frameworks */,
+				982450041D2A2D120091F342 /* libc++.tbd in Frameworks */,
+				982450021D2A2D0C0091F342 /* libz.1.1.3.tbd in Frameworks */,
+				AD5C06211D8136AF006A554A /* FNSwiftNetInterface.framework in Frameworks */,
+				98244FFC1D2A2CE40091F342 /* FNCommon.framework in Frameworks */,
+				98244FFD1D2A2CE40091F342 /* FNDataModule.framework in Frameworks */,
+				98244FFE1D2A2CE40091F342 /* FNDBManager.framework in Frameworks */,
+				982450001D2A2CE40091F342 /* FNUIView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98244FC01D2A1A390091F342 = {
+			isa = PBXGroup;
+			children = (
+				98310F181D81149700417CED /* AppDelegate.h */,
+				98310F191D81149700417CED /* AppDelegate.m */,
+				98244FCB1D2A1A390091F342 /* FeiNiu_Business */,
+				98244FCA1D2A1A390091F342 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98244FCA1D2A1A390091F342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98244FC91D2A1A390091F342 /* FeiNiu_Business.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98244FCB1D2A1A390091F342 /* FeiNiu_Business */ = {
+			isa = PBXGroup;
+			children = (
+				9824503C1D2A3AB80091F342 /* CustomView */,
+				982450091D2A2E670091F342 /* LocalData */,
+				98244FE31D2A29BF0091F342 /* Module */,
+				98244FE51D2A29BF0091F342 /* ViewController */,
+				98244FE41D2A29BF0091F342 /* Storyboard */,
+				982450131D2A2ECF0091F342 /* Framework */,
+				98F799B11D2B7A3D00F3181A /* IFConstanst.h */,
+				98310F141D8108BB00417CED /* IFConstants.swift */,
+				98310F111D8100A100417CED /* BasicConstanst.swift */,
+				9855F12E1D7D6BC400EA514F /* FeiNiu_Business-Bridging-Header.h */,
+				98244FD81D2A1A3A0091F342 /* Assets.xcassets */,
+				98244FDD1D2A1A3A0091F342 /* Info.plist */,
+				98244FCC1D2A1A390091F342 /* Supporting Files */,
+			);
+			path = FeiNiu_Business;
+			sourceTree = "<group>";
+		};
+		98244FCC1D2A1A390091F342 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				982450171D2A30FF0091F342 /* PrefixHeader.pch */,
+				98244FCD1D2A1A3A0091F342 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98244FE31D2A29BF0091F342 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				983B3B661D7FF63D000D3FE9 /* User.swift */,
+				983B3B681D7FF71B000D3FE9 /* Order.swift */,
+			);
+			name = Module;
+			path = Class/Module;
+			sourceTree = "<group>";
+		};
+		98244FE41D2A29BF0091F342 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9824501E1D2A32820091F342 /* Main.storyboard */,
+				98244FE61D2A29E80091F342 /* LaunchScreen.storyboard */,
+				982450201D2A367F0091F342 /* Order.storyboard */,
+				982450221D2A368F0091F342 /* Booking.storyboard */,
+				9824502F1D2A38EB0091F342 /* Manager.storyboard */,
+			);
+			name = Storyboard;
+			path = Class/Storyboard;
+			sourceTree = "<group>";
+		};
+		98244FE51D2A29BF0091F342 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				982450311D2A3A6A0091F342 /* base */,
+				98244FED1D2A2C050091F342 /* Mian */,
+				98244FEA1D2A2BEA0091F342 /* Booking */,
+				98244FEB1D2A2BEA0091F342 /* Manager */,
+				98244FEC1D2A2BEA0091F342 /* Order */,
+			);
+			name = ViewController;
+			path = Class/ViewController;
+			sourceTree = "<group>";
+		};
+		98244FEA1D2A2BEA0091F342 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				9824502C1D2A38460091F342 /* BookingViewController.h */,
+				9824502D1D2A38460091F342 /* BookingViewController.m */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		98244FEB1D2A2BEA0091F342 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				98F799BE1D2BAD9D00F3181A /* view */,
+				983B3B5F1D7FF01D000D3FE9 /* BNSAccountMgrViewController.swift */,
+				983B3B601D7FF01D000D3FE9 /* BNSForgetPwdViewController.swift */,
+				983B3B611D7FF01D000D3FE9 /* BNSRegisterViewController.swift */,
+				98D168FB1D7E8E0700C4DC5D /* BNSLoginViewController.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		98244FEC1D2A2BEA0091F342 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				98483D591D2BE7CF0052E33E /* View */,
+				AD5C05C11D7EB4A3006A554A /* BNSDetailOrderViewController.swift */,
+				AD5C05BD1D7EAE3C006A554A /* BNSManyOrderViewController.swift */,
+				AD5C05B51D7E9D1F006A554A /* BNSSeachOrderViewController.swift */,
+				AD5C05C31D7EBBB8006A554A /* BNSPaymentViewController.swift */,
+				AD5C05B11D7E928A006A554A /* BNSOrderCenterViewController.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		98244FED1D2A2C050091F342 /* Mian */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C05C51D7FBCA3006A554A /* BNSGuideViewController.swift */,
+				AD5C05C71D7FC2C0006A554A /* BNSMainViewController.swift */,
+				AD5C05C91D7FEC26006A554A /* BNSRootViewController.swift */,
+			);
+			path = Mian;
+			sourceTree = "<group>";
+		};
+		982450091D2A2E670091F342 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				9824500A1D2A2E670091F342 /* CachedataPreferences.h */,
+				9824500B1D2A2E670091F342 /* CachedataPreferences.m */,
+				9824500C1D2A2E670091F342 /* ComTempCache.h */,
+				9824500D1D2A2E670091F342 /* ComTempCache.m */,
+				9824500E1D2A2E670091F342 /* UserPreferences.h */,
+				9824500F1D2A2E670091F342 /* UserPreferences.m */,
+				98F799B21D2B8BAF00F3181A /* AuthorizeCache.h */,
+				98F799B31D2B8BAF00F3181A /* AuthorizeCache.m */,
+			);
+			name = LocalData;
+			path = Class/LocalData;
+			sourceTree = "<group>";
+		};
+		982450131D2A2ECF0091F342 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9824501C1D2A31F70091F342 /* libstdc++.6.0.9.tbd */,
+				9824501A1D2A31E60091F342 /* Security.framework */,
+				982450181D2A31DC0091F342 /* libsqlite3.tbd */,
+				982450071D2A2D3D0091F342 /* SystemConfiguration.framework */,
+				982450051D2A2D330091F342 /* QuartzCore.framework */,
+				982450031D2A2D120091F342 /* libc++.tbd */,
+				982450011D2A2D0C0091F342 /* libz.1.1.3.tbd */,
+				AD5C06201D8136AF006A554A /* FNSwiftNetInterface.framework */,
+				98244FF71D2A2CE40091F342 /* FNCommon.framework */,
+				98244FF81D2A2CE40091F342 /* FNDataModule.framework */,
+				98244FF91D2A2CE40091F342 /* FNDBManager.framework */,
+				98244FFB1D2A2CE40091F342 /* FNUIView.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		982450311D2A3A6A0091F342 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				983B3B5D1D7FF008000D3FE9 /* BNSUserBaseUIViewController.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		9824503C1D2A3AB80091F342 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				982450741D2A3AB80091F342 /* UINavigationView.h */,
+				982450751D2A3AB80091F342 /* UINavigationView.m */,
+			);
+			name = CustomView;
+			path = Class/CustomView;
+			sourceTree = "<group>";
+		};
+		98483D591D2BE7CF0052E33E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD5C05B31D7E98DC006A554A /* BNSOrderCenterTableViewCell.swift */,
+				98483D5C1D2BE7CF0052E33E /* OrderCenterTableViewCell.xib */,
+				AD5C05BF1D7EB064006A554A /* BNSManyOrderTableViewCell.swift */,
+				98035B261D2E02390070887F /* ManyOrderTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98F799BE1D2BAD9D00F3181A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				98F799BF1D2BADB800F3181A /* LoginInputView.h */,
+				98F799C01D2BADB800F3181A /* LoginInputView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98244FC81D2A1A390091F342 /* FeiNiu_Business */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98244FE01D2A1A3A0091F342 /* Build configuration list for PBXNativeTarget "FeiNiu_Business" */;
+			buildPhases = (
+				98244FC51D2A1A390091F342 /* Sources */,
+				98244FC61D2A1A390091F342 /* Frameworks */,
+				98244FC71D2A1A390091F342 /* Resources */,
+				AD5C06231D8136AF006A554A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeiNiu_Business;
+			productName = FeiNiu_Business;
+			productReference = 98244FC91D2A1A390091F342 /* FeiNiu_Business.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98244FC11D2A1A390091F342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tianbo;
+				TargetAttributes = {
+					98244FC81D2A1A390091F342 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 98244FC41D2A1A390091F342 /* Build configuration list for PBXProject "FeiNiu_Business" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98244FC01D2A1A390091F342;
+			productRefGroup = 98244FCA1D2A1A390091F342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98244FC81D2A1A390091F342 /* FeiNiu_Business */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98244FC71D2A1A390091F342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824501F1D2A32820091F342 /* Main.storyboard in Resources */,
+				98035B281D2E02390070887F /* ManyOrderTableViewCell.xib in Resources */,
+				98483D651D2BE7CF0052E33E /* OrderCenterTableViewCell.xib in Resources */,
+				982450231D2A368F0091F342 /* Booking.storyboard in Resources */,
+				982450301D2A38EB0091F342 /* Manager.storyboard in Resources */,
+				98244FD91D2A1A3A0091F342 /* Assets.xcassets in Resources */,
+				98244FE81D2A29E80091F342 /* LaunchScreen.storyboard in Resources */,
+				982450211D2A367F0091F342 /* Order.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98244FC51D2A1A390091F342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D168FC1D7E8E0700C4DC5D /* BNSLoginViewController.swift in Sources */,
+				982450961D2A3AB80091F342 /* UINavigationView.m in Sources */,
+				AD5C05C41D7EBBB8006A554A /* BNSPaymentViewController.swift in Sources */,
+				98310F121D8100A100417CED /* BasicConstanst.swift in Sources */,
+				983B3B631D7FF01D000D3FE9 /* BNSForgetPwdViewController.swift in Sources */,
+				982450121D2A2E670091F342 /* UserPreferences.m in Sources */,
+				982450111D2A2E670091F342 /* ComTempCache.m in Sources */,
+				983B3B5E1D7FF008000D3FE9 /* BNSUserBaseUIViewController.swift in Sources */,
+				AD5C05BE1D7EAE3C006A554A /* BNSManyOrderViewController.swift in Sources */,
+				AD5C05C61D7FBCA3006A554A /* BNSGuideViewController.swift in Sources */,
+				AD5C05B41D7E98DC006A554A /* BNSOrderCenterTableViewCell.swift in Sources */,
+				AD5C05C21D7EB4A3006A554A /* BNSDetailOrderViewController.swift in Sources */,
+				98310F151D8108BB00417CED /* IFConstants.swift in Sources */,
+				AD5C05CA1D7FEC26006A554A /* BNSRootViewController.swift in Sources */,
+				AD5C05B21D7E928A006A554A /* BNSOrderCenterViewController.swift in Sources */,
+				AD5C05C01D7EB064006A554A /* BNSManyOrderTableViewCell.swift in Sources */,
+				98244FCE1D2A1A3A0091F342 /* main.m in Sources */,
+				AD5C05C81D7FC2C0006A554A /* BNSMainViewController.swift in Sources */,
+				983B3B671D7FF63D000D3FE9 /* User.swift in Sources */,
+				98F799B41D2B8BAF00F3181A /* AuthorizeCache.m in Sources */,
+				98310F1A1D81149700417CED /* AppDelegate.m in Sources */,
+				98F799C11D2BADB800F3181A /* LoginInputView.m in Sources */,
+				983B3B641D7FF01D000D3FE9 /* BNSRegisterViewController.swift in Sources */,
+				AD5C05B61D7E9D1F006A554A /* BNSSeachOrderViewController.swift in Sources */,
+				982450101D2A2E670091F342 /* CachedataPreferences.m in Sources */,
+				9824502E1D2A38460091F342 /* BookingViewController.m in Sources */,
+				983B3B621D7FF01D000D3FE9 /* BNSAccountMgrViewController.swift in Sources */,
+				983B3B691D7FF71B000D3FE9 /* Order.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		98244FDE1D2A1A3A0091F342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98244FDF1D2A1A3A0091F342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98244FE11D2A1A3A0091F342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FeiNiu_Business/PrefixHeader.pch;
+				INFOPLIST_FILE = FeiNiu_Business/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiniubus.FeiNiuBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeiNiu_Business/FeiNiu_Business-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98244FE21D2A1A3A0091F342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FeiNiu_Business/PrefixHeader.pch;
+				INFOPLIST_FILE = FeiNiu_Business/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiniubus.FeiNiuBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeiNiu_Business/FeiNiu_Business-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98244FC41D2A1A390091F342 /* Build configuration list for PBXProject "FeiNiu_Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98244FDE1D2A1A3A0091F342 /* Debug */,
+				98244FDF1D2A1A3A0091F342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98244FE01D2A1A3A0091F342 /* Build configuration list for PBXNativeTarget "FeiNiu_Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98244FE11D2A1A3A0091F342 /* Debug */,
+				98244FE21D2A1A3A0091F342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98244FC11D2A1A390091F342 /* Project object */;
+}

@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AliPay (2.1.2)
+  - AMap3DMap-NO-IDFA (4.5.0):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapFoundation-NO-IDFA (1.3.4)
+  - AMapLocation-NO-IDFA (2.3.0):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapSearch-NO-IDFA (4.4.1):
+    - AMapFoundation-NO-IDFA (~> 1.2)
+  - JPush-iOS-SDK (2.1.9)
+  - libWeChatSDK (1.7.5)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SnapKit (3.0.2)
+  - UMengAnalytics-NO-IDFA (4.1.9)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.0)
+  - AliPay (~> 2.1.2)
+  - AMap3DMap-NO-IDFA (~> 4.5.0)
+  - AMapFoundation-NO-IDFA (~> 1.3.4)
+  - AMapLocation-NO-IDFA (~> 2.3.0)
+  - AMapSearch-NO-IDFA (~> 4.4.1)
+  - JPush-iOS-SDK (~> 2.1.9)
+  - libWeChatSDK
+  - SDWebImage (~> 4.0.0-beta2)
+  - SnapKit (~> 3.0.2)
+  - UMengAnalytics-NO-IDFA (~> 4.1.9)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AliPay: 2bd35a4e486d2a8c035043023cd846e886bb21d1
+  AMap3DMap-NO-IDFA: 1c29c4cc197672833533695405f9087aba2849b4
+  AMapFoundation-NO-IDFA: 56b42e67233c8a883cfd448d94c4cb7380080741
+  AMapLocation-NO-IDFA: c458bd5f15d1243381274508f029960ae48b2801
+  AMapSearch-NO-IDFA: 907b3e4bfe6a34b890e19f0981f6abdc0f0af656
+  JPush-iOS-SDK: c74e4f8d066dacf27c3d37257ee20157e44c316c
+  libWeChatSDK: e34a813bccc704856a33943bde8279be4e4c82a0
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  UMengAnalytics-NO-IDFA: 985292af177111685325c90c321094172b95d2cb
+
+PODFILE CHECKSUM: a750c525050992cd7ff87a3fabbf89788099ef07
+
+COCOAPODS: 1.0.1

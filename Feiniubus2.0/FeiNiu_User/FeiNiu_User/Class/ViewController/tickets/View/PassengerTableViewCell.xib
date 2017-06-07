@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="PassengerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4p-dX-yHt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkbox_moreh" translatesAutoresizingMaskIntoConstraints="NO" id="d5E-Ee-I6a" userLabel="deleteImageView">
+                                <rect key="frame" x="20" y="23" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="BSJ-OY-Ldp"/>
+                                    <constraint firstAttribute="height" constant="15" id="sXG-If-Mpb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王二娃" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7c-Ps-kfw">
+                                <rect key="frame" x="45" y="12" width="42" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="儿童/军残半价票" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Z3-Ga-RDn">
+                                <rect key="frame" x="90" y="17" width="74" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="1" green="0.72156862749999995" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="身份证:510000000000000000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGi-oJ-K7g">
+                                <rect key="frame" x="45" y="33" width="174" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.73333333329999995" green="0.73333333329999995" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i8k-BR-8Co" userLabel="lineView">
+                                <rect key="frame" x="0.0" y="59" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="tyz-J5-qnx" customClass="IBDesignableOnePixelConstant">
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="onePixelConstant">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </constraint>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Z3-Ga-RDn" firstAttribute="bottom" secondItem="L7c-Ps-kfw" secondAttribute="bottom" id="9Tf-c5-eNj"/>
+                            <constraint firstItem="7Z3-Ga-RDn" firstAttribute="leading" secondItem="L7c-Ps-kfw" secondAttribute="trailing" constant="3" id="JmQ-5T-D4c"/>
+                            <constraint firstItem="d5E-Ee-I6a" firstAttribute="leading" secondItem="H4p-dX-yHt" secondAttribute="leading" constant="20" id="Ly7-I6-Uge"/>
+                            <constraint firstAttribute="trailing" secondItem="i8k-BR-8Co" secondAttribute="trailing" id="QNR-AL-J2a"/>
+                            <constraint firstItem="d5E-Ee-I6a" firstAttribute="centerY" secondItem="H4p-dX-yHt" secondAttribute="centerY" id="Xwb-CZ-UmC"/>
+                            <constraint firstItem="L7c-Ps-kfw" firstAttribute="leading" secondItem="H4p-dX-yHt" secondAttribute="leading" constant="45" id="a1k-SA-z0v"/>
+                            <constraint firstItem="SGi-oJ-K7g" firstAttribute="leading" secondItem="L7c-Ps-kfw" secondAttribute="leading" id="ivn-h7-E57"/>
+                            <constraint firstItem="i8k-BR-8Co" firstAttribute="leading" secondItem="H4p-dX-yHt" secondAttribute="leading" id="nZW-52-Mmu"/>
+                            <constraint firstAttribute="bottom" secondItem="i8k-BR-8Co" secondAttribute="bottom" id="rNn-nf-Nh4"/>
+                            <constraint firstItem="L7c-Ps-kfw" firstAttribute="centerY" secondItem="H4p-dX-yHt" secondAttribute="centerY" constant="-10" id="rfK-ye-4ez"/>
+                            <constraint firstItem="SGi-oJ-K7g" firstAttribute="centerY" secondItem="H4p-dX-yHt" secondAttribute="centerY" constant="10" id="sZb-7I-PUl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="H4p-dX-yHt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="MIR-2w-oyE"/>
+                    <constraint firstAttribute="trailing" secondItem="H4p-dX-yHt" secondAttribute="trailing" id="PaB-8Z-R6j"/>
+                    <constraint firstAttribute="bottom" secondItem="H4p-dX-yHt" secondAttribute="bottom" id="c1x-X4-pUC"/>
+                    <constraint firstItem="H4p-dX-yHt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="r6j-WV-WUw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="457" y="460"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox_moreh" width="13" height="13"/>
+    </resources>
+</document>

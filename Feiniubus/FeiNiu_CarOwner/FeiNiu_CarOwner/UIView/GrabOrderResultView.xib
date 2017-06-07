@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GrabOrderResultView">
+            <rect key="frame" x="0.0" y="0.0" width="281" height="230"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9yf-XZ-u04" userLabel="ContentView">
+                    <rect key="frame" x="4" y="1" width="273" height="229"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lwa-6m-7gp" userLabel="topView">
+                            <rect key="frame" x="0.0" y="0.0" width="273" height="79"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="grabOrderSuccess" translatesAutoresizingMaskIntoConstraints="NO" id="is2-8P-1RP">
+                                    <rect key="frame" x="92" y="30" width="89" height="54"/>
+                                    <animations/>
+                                </imageView>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.35294117650000001" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="is2-8P-1RP" firstAttribute="top" secondItem="lwa-6m-7gp" secondAttribute="top" constant="30" id="5fm-uv-USg"/>
+                                <constraint firstAttribute="bottom" secondItem="is2-8P-1RP" secondAttribute="bottom" constant="-5" id="b4q-P9-4Vb"/>
+                                <constraint firstItem="is2-8P-1RP" firstAttribute="leading" secondItem="lwa-6m-7gp" secondAttribute="leading" constant="92" id="fkr-5M-dGF"/>
+                                <constraint firstAttribute="trailing" secondItem="is2-8P-1RP" secondAttribute="trailing" constant="92" id="wl6-6q-wr5"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="抢单成功" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCX-cX-YKx">
+                            <rect key="frame" x="0.0" y="94" width="273" height="24"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="6vM-04-M9w"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="请等待用户付款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFo-on-XKT">
+                            <rect key="frame" x="0.0" y="141" width="273" height="15"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceZ-px-Blm">
+                            <rect key="frame" x="27" y="174" width="219" height="40"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="8uO-yu-Qs8"/>
+                            </constraints>
+                            <state key="normal" title="回到抢单">
+                                <color key="titleColor" red="1" green="0.35294117650000001" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="lwa-6m-7gp" secondAttribute="trailing" id="Knz-KR-opm"/>
+                        <constraint firstItem="lwa-6m-7gp" firstAttribute="top" secondItem="9yf-XZ-u04" secondAttribute="top" id="OKM-fu-sDN"/>
+                        <constraint firstItem="dFo-on-XKT" firstAttribute="top" secondItem="yCX-cX-YKx" secondAttribute="bottom" constant="23" id="SAM-rm-MEc"/>
+                        <constraint firstAttribute="width" priority="300" constant="140" id="STN-Sn-Rl6"/>
+                        <constraint firstItem="dFo-on-XKT" firstAttribute="trailing" secondItem="yCX-cX-YKx" secondAttribute="trailing" id="VuU-q2-lVi"/>
+                        <constraint firstItem="yCX-cX-YKx" firstAttribute="top" secondItem="lwa-6m-7gp" secondAttribute="bottom" constant="15" id="WD5-75-0QE"/>
+                        <constraint firstAttribute="bottom" secondItem="lwa-6m-7gp" secondAttribute="bottom" constant="150" id="alN-6f-VNO"/>
+                        <constraint firstItem="lwa-6m-7gp" firstAttribute="leading" secondItem="9yf-XZ-u04" secondAttribute="leading" id="avF-8a-A33"/>
+                        <constraint firstItem="dFo-on-XKT" firstAttribute="leading" secondItem="yCX-cX-YKx" secondAttribute="leading" id="b6F-an-ykV"/>
+                        <constraint firstItem="yCX-cX-YKx" firstAttribute="trailing" secondItem="lwa-6m-7gp" secondAttribute="trailing" id="im5-xL-SOa"/>
+                        <constraint firstAttribute="trailing" secondItem="ceZ-px-Blm" secondAttribute="trailing" constant="27" id="mQR-ta-GuB"/>
+                        <constraint firstAttribute="height" priority="300" constant="115" id="oaN-g4-c6M"/>
+                        <constraint firstAttribute="bottom" secondItem="ceZ-px-Blm" secondAttribute="bottom" constant="15" id="s9S-Lh-9kR"/>
+                        <constraint firstItem="yCX-cX-YKx" firstAttribute="leading" secondItem="lwa-6m-7gp" secondAttribute="leading" id="vpq-Za-5Qk"/>
+                        <constraint firstItem="ceZ-px-Blm" firstAttribute="leading" secondItem="9yf-XZ-u04" secondAttribute="leading" constant="27" id="wyo-I6-sgO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9yf-XZ-u04" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" priority="300" id="0qo-kk-PLA"/>
+                <constraint firstAttribute="trailing" secondItem="9yf-XZ-u04" secondAttribute="trailing" priority="300" id="6oM-Aa-Ak6"/>
+                <constraint firstItem="9yf-XZ-u04" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" priority="300" id="7Cl-Kg-hCs"/>
+                <constraint firstItem="9yf-XZ-u04" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" priority="300" id="Bup-ba-rcp"/>
+                <constraint firstAttribute="bottom" secondItem="9yf-XZ-u04" secondAttribute="bottom" priority="300" id="fG6-vh-IMC"/>
+                <constraint firstItem="9yf-XZ-u04" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" priority="300" id="tpY-wq-G6u"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="0qo-kk-PLA"/>
+                    <exclude reference="6oM-Aa-Ak6"/>
+                    <exclude reference="7Cl-Kg-hCs"/>
+                    <exclude reference="fG6-vh-IMC"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="contentView" destination="9yf-XZ-u04" id="xtP-x4-Cbx"/>
+                <outlet property="headImage" destination="is2-8P-1RP" id="eej-Jl-Uty"/>
+                <outlet property="submitButton" destination="ceZ-px-Blm" id="Hj6-2j-tQv"/>
+                <outlet property="tipFirstInfor" destination="yCX-cX-YKx" id="BhD-qg-yzs"/>
+                <outlet property="tipSecondInfor" destination="dFo-on-XKT" id="jbv-lE-I8A"/>
+            </connections>
+            <point key="canvasLocation" x="265" y="149.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="grabOrderSuccess" width="89" height="54"/>
+    </resources>
+</document>
